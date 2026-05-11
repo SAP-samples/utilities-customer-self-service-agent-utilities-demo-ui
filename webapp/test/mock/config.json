@@ -1,5 +1,5 @@
 {
-    "firstname": "Emma",
+    "firstname": "<Firstname>",
     "auth": {
         "url": "",
         "clientId": "",
@@ -8,53 +8,11 @@
     },
     "users": [
         {
-            "ucssa-userid": "emma",
+            "ucssa-userid": "<User Id>",
             "businessPartners": [
-                "1113855"
+                "<List ofConnected Business Partner IDs>"
             ],
-            "ucssa-username": "Emma"
-        },
-        {
-            "ucssa-userid": "charlie",
-            "businessPartners": [
-                "1113854"
-            ],
-            "ucssa-username": "Charlie"
-        },
-        {
-            "ucssa-userid": "chris",
-            "businessPartners": [
-                "1117218"
-            ],
-            "ucssa-username": "Chris"
-        },
-        {
-            "ucssa-userid": "nolan",
-            "businessPartners": [
-                "1121500"
-            ],
-            "ucssa-username": "Nolan"
-        },
-        {
-            "ucssa-userid": "marie",
-            "businessPartners": [
-                "1117219"
-            ],
-            "ucssa-username": "Marie"
-        },
-        {
-            "ucssa-userid": "michael",
-            "businessPartners": [
-                "1109259"
-            ],
-            "ucssa-username": "Michael"
-        },
-        {
-            "ucssa-userid": "lucy",
-            "businessPartners": [
-                "1119129"
-            ],
-            "ucssa-username": "Lucy"
+            "ucssa-username": "<User Name>"
         }
     ]
 }
