@@ -1,0 +1,180 @@
+{
+    "@odata.context": "$metadata#TestCaseDetail",
+    "testCase": "@ConsumptionInquiry\nFeature: Consumption Inquiry\n  This feature allows the user to inquire about their electricity consumption for a specific year.\n\n  Scenario: User requests consumption details for multiple years\n    Given I am logged in as \"emma\"\n    And I start a new conversation\n    When I say \"Show me my consumption for 2022\"\n    Then the following messages are expected:\n      | type | content                                                                 |\n      | text | Sure, Emma. There are two premises associated with your name. Kindly select one to view your consumption details. |\n      | data | file:features/support/data/premises.json                                 |\n    When I say \"Sunnybrook Street 7245 / 57201 Anytown\"\n    Then the following messages are expected:\n      | type | content                                                                 |\n      | text | Unfortunately, Emma, I am unable to find any consumption information for the billing period of 2022. Would you like me to check for a different year instead? |\n    When I say \"2024\"\n    Then the following messages are expected:\n      | type | content                                                                 |\n      | text | Certainly, Emma. Here are the consumption details for the electricity service located at Sunnybrook Street, Anytown, for the period of 2024. Should you need further assistance, feel free to let me know. |\n      | data | file:features/support/data/consumption2024.json                          |\n    When I say \"then the year before that\"\n    Then the following messages are expected:\n      | type | content                                                                 |\n      | text | Unfortunately, I could not locate any consumption information for the billing period: 2023. Would you like me to check for a different year, Emma? |\n    When I say \"2025\"\n    Then the following messages are expected:\n      | type | content                                                                 |\n      | text | Certainly, Emma, here are the consumption details for electricity service at Sunnybrook Street 7245 in Anytown for the period 2025. Please let me know if you need any further assistance. |\n      | data | file:features/support/data/consumption2025.json                          |\n",
+    "testData": [
+        {
+            "filePath": "features/support/data/premises.json",
+            "data": [
+                {
+                    "standardFlag": "",
+                    "city": "Anytown",
+                    "district": "",
+                    "postalCode": "57201",
+                    "POBoxPostalCode": "",
+                    "POBox": "",
+                    "street": "Sunnybrook Street",
+                    "houseNo": "7245",
+                    "building": "",
+                    "floor": "",
+                    "roomNo": "",
+                    "countryID": "DE",
+                    "countryName": "",
+                    "region": "",
+                    "regionName": "",
+                    "timeZone": "CET",
+                    "taxJurisdictionCode": "",
+                    "languageID": "",
+                    "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+                    "premiseTypeID": "0003",
+                    "premiseID": "647855",
+                    "premiseTypeDescription": "Single Family Home"
+                },
+                {
+                    "standardFlag": "",
+                    "city": "Anytown",
+                    "district": "",
+                    "postalCode": "57401",
+                    "POBoxPostalCode": "",
+                    "POBox": "",
+                    "street": "Main Street",
+                    "houseNo": "781",
+                    "building": "",
+                    "floor": "",
+                    "roomNo": "",
+                    "countryID": "DE",
+                    "countryName": "",
+                    "region": "",
+                    "regionName": "",
+                    "timeZone": "CET",
+                    "taxJurisdictionCode": "",
+                    "languageID": "",
+                    "shortForm": "Main Street 781 / 57401 Anytown",
+                    "premiseTypeID": "0005",
+                    "premiseID": "647856",
+                    "premiseTypeDescription": "Two-room apartment"
+                }
+            ]
+        },
+        {
+            "filePath": "features/support/data/consumption2024.json",
+            "data": [
+                {
+                    "contractID": "138538",
+                    "contractDescription": "Heating tariff",
+                    "division": "Electricity",
+                    "premise": {
+                        "standardFlag": "",
+                        "city": "Anytown",
+                        "district": "",
+                        "postalCode": "57201",
+                        "POBoxPostalCode": "",
+                        "POBox": "",
+                        "street": "Sunnybrook Street",
+                        "houseNo": "7245",
+                        "building": "",
+                        "floor": "",
+                        "roomNo": "",
+                        "countryID": "DE",
+                        "countryName": "",
+                        "region": "",
+                        "regionName": "",
+                        "timeZone": "CET",
+                        "taxJurisdictionCode": "",
+                        "languageID": "",
+                        "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+                        "premiseTypeID": "0003",
+                        "premiseID": "647855",
+                        "premiseTypeDescription": "Single Family Home"
+                    },
+                    "intervalType": "Yearly",
+                    "period": "2024-01-01 - 2024-09-30",
+                    "values": [
+                        {
+                            "consumption": 76,
+                            "unit": "KWH"
+                        }
+                    ]
+                },
+                {
+                    "contractID": "138108",
+                    "contractDescription": "Household tariff",
+                    "division": "Electricity",
+                    "premise": {
+                        "standardFlag": "",
+                        "city": "Anytown",
+                        "district": "",
+                        "postalCode": "57201",
+                        "POBoxPostalCode": "",
+                        "POBox": "",
+                        "street": "Sunnybrook Street",
+                        "houseNo": "7245",
+                        "building": "",
+                        "floor": "",
+                        "roomNo": "",
+                        "countryID": "DE",
+                        "countryName": "",
+                        "region": "",
+                        "regionName": "",
+                        "timeZone": "CET",
+                        "taxJurisdictionCode": "",
+                        "languageID": "",
+                        "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+                        "premiseTypeID": "0003",
+                        "premiseID": "647855",
+                        "premiseTypeDescription": "Single Family Home"
+                    },
+                    "intervalType": "Yearly",
+                    "period": "2024-01-01 - 2024-12-31",
+                    "values": [
+                        {
+                            "consumption": 131.20000000000002,
+                            "unit": "KWH"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "filePath": "features/support/data/consumption2025.json",
+            "data": [
+                {
+                    "contractID": "138108",
+                    "contractDescription": "Household tariff",
+                    "division": "Electricity",
+                    "premise": {
+                        "standardFlag": "",
+                        "city": "Anytown",
+                        "district": "",
+                        "postalCode": "57201",
+                        "POBoxPostalCode": "",
+                        "POBox": "",
+                        "street": "Sunnybrook Street",
+                        "houseNo": "7245",
+                        "building": "",
+                        "floor": "",
+                        "roomNo": "",
+                        "countryID": "DE",
+                        "countryName": "",
+                        "region": "",
+                        "regionName": "",
+                        "timeZone": "CET",
+                        "taxJurisdictionCode": "",
+                        "languageID": "",
+                        "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+                        "premiseTypeID": "0003",
+                        "premiseID": "647855",
+                        "premiseTypeDescription": "Single Family Home"
+                    },
+                    "intervalType": "Yearly",
+                    "period": "2025-01-01 - 2025-04-30",
+                    "values": [
+                        {
+                            "consumption": 119.4,
+                            "unit": "KWH"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

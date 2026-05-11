@@ -1,0 +1,17 @@
+{
+    "buttons": [
+        {
+            "label": "Yes",
+            "press": {
+                "message": "Yes"
+            }
+        },
+        {
+            "label": "Yesterday"
+        },
+        {
+            "label": "Other Day"
+        }
+    ],
+    "parent": "Text"
+}

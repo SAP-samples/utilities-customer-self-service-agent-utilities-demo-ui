@@ -1,0 +1,44 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+        <edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1" />
+    </edmx:Reference>
+    <edmx:Reference
+        Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml">
+        <edmx:Include Alias="Core" Namespace="Org.OData.Core.V1" />
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="TestCaseService">
+            <Annotation Term="Core.Links">
+                <Collection>
+                    <Record>
+                        <PropertyValue Property="rel" String="author" />
+                        <PropertyValue Property="href" String="https://cap.cloud.sap" />
+                    </Record>
+                </Collection>
+            </Annotation>
+            <EntityContainer Name="EntityContainer">
+                <ActionImport Name="generateTestCase" Action="TestCaseService.generateTestCase" />
+            </EntityContainer>
+            <ComplexType Name="TestCaseDetail">
+                <Property Name="testCase" Type="Edm.String" />
+                <Property Name="testData" Type="Collection(Edm.String)" Nullable="true" />
+            </ComplexType>
+            <Action Name="generateTestCase" IsBound="false">
+                <Parameter Name="sessionId" Type="Edm.String" />
+                <Parameter Name="landscape" Type="Edm.String" />
+                <ReturnType Type="TestCaseService.TestCaseDetail" />
+            </Action>
+            <Annotation Term="Core.SchemaVersion" String="1.0" />
+            <Annotations Target="TestCaseService.EntityContainer">
+                <Annotation Term="Common.Label" String="Conversation Service" />
+            </Annotations>
+            <Annotations Target="TestCaseService.generateTestCase()/sessionId">
+                <Annotation Term="Core.LongDescription"
+                    String="Unique ID identifying the chat session" />
+            </Annotations>
+            <Annotations Target="TestCaseService.generateTestCase()/landscape">
+                <Annotation Term="Core.LongDescription" String="System landscape" />
+            </Annotations>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

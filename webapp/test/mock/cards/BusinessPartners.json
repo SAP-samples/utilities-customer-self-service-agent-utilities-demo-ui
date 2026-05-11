@@ -1,0 +1,13 @@
+{
+	"type": "businessPartner",
+	"data": [
+		{
+			"AccountID": 1113855,
+			"FullName": "Emma Calloway"
+		},
+		{
+			"AccountID": 1182365,
+			"FullName": "John Doe"
+		}
+	]
+}

@@ -1,0 +1,71 @@
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    height="100%"
+    controllerName="com.sap.utl.ai.ui.dssa.controller.Customization"
+>
+    
+    <Page id="customFullPage" showHeader="false" enableScrolling="false" title="Utilities Customer Self-Service Agent Configuration">
+        <content>
+        <Text id="customTitle" text="Hello"> </Text>
+        <Button id = "customGoBack" text="Back" press="onNavBack"></Button>
+
+	 	<!-- <Tree
+		    id="Tree"
+		    items="{path: '/'}">
+			<StandardTreeItem id="sdd" title="{text}"/>
+		</Tree> -->
+    <VBox id="customVBox" height="100%"  fitContainer="true">
+        <l:Splitter
+            id="customSplitter"
+            orientation="Horizontal"
+        >
+    <VBox id="customVBox1">
+                <layoutData>
+                    <l:SplitterLayoutData
+                        id="customLayout"
+                        size="15%"
+                    />
+                </layoutData>
+                <Tree id = "leftTreeHead" items="{tree>/}">
+                <StandardTreeItem
+                    id="leftTree"
+                    title="{tree>text}"
+                />
+                </Tree>
+
+                </VBox>
+                <VBox id="customSettingsVBox">
+                <layoutData>
+                    <l:SplitterLayoutData
+                        id="customData"
+                        size="50%"
+                    />
+                </layoutData>
+                    <Text
+                        id="customHeader"
+                        text="Custom Settings"
+                    />
+                    <!-- Add custom settings controls here -->
+                </VBox>
+                <VBox id="customPreviewVBox">
+                
+                <layoutData>
+                    <l:SplitterLayoutData
+                        id="previewLayout"
+                        size="35%"
+                    />
+                </layoutData>
+                    <Text
+                        id="previewHeader"
+                        text="Preview"
+                    />
+                    <!-- Add preview controls here -->
+                </VBox>
+        </l:Splitter>
+    </VBox>
+
+        </content>
+    </Page>
+</mvc:View>

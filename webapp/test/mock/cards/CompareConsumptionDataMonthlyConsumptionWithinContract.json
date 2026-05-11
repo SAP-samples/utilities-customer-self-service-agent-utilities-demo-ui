@@ -1,0 +1,143 @@
+{
+	"type": "compareConsumption",
+	"data": [
+		{
+			"contractID": "138538",
+			"contractDescription": "Heating tariff",
+			"division": "Electricity",
+			"intervalType": "Monthly",
+			"comparisonType": "WithinContract",
+			"values": [
+				{
+					"period": "2023-01-01 - 2023-01-31",
+					"consumption": "101.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-02-01 - 2023-02-28",
+					"consumption": "102.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-03-01 - 2023-03-31",
+					"consumption": "103.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-04-01 - 2023-04-30",
+					"consumption": "104.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-05-01 - 2023-05-31",
+					"consumption": "105.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-06-01 - 2023-06-30",
+					"consumption": "106.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-07-01 - 2023-07-31",
+					"consumption": "107.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-08-01 - 2023-08-31",
+					"consumption": "108.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-09-01 - 2023-09-30",
+					"consumption": "109.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-10-01 - 2023-10-31",
+					"consumption": "110.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-11-01 - 2023-11-30",
+					"consumption": "111.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-12-01 - 2023-12-31",
+					"consumption": "112.00000000000000",
+					"unit": "KWH"
+				}
+			]
+		},
+		{
+			"contractID": "138538",
+			"contractDescription": "Heating tariff",
+			"division": "Electricity",
+			"intervalType": "Monthly",
+			"comparisonType": "WithinContract",
+			"values": [
+				{
+					"period": "2024-01-01 - 2024-01-31",
+					"consumption": "201.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-02-01 - 2024-02-29",
+					"consumption": "202.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-03-01 - 2024-03-31",
+					"consumption": "203.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-04-01 - 2024-04-30",
+					"consumption": "204.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-05-01 - 2024-05-31",
+					"consumption": "205.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-06-01 - 2024-06-30",
+					"consumption": "206.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-07-01 - 2024-07-31",
+					"consumption": "207.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-08-01 - 2024-08-31",
+					"consumption": "208.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-09-01 - 2024-09-30",
+					"consumption": "209.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-10-01 - 2024-10-31",
+					"consumption": "210.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-11-01 - 2024-11-30",
+					"consumption": "211.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-12-01 - 2024-12-31",
+					"consumption": "212.00000000000000",
+					"unit": "KWH"
+				}
+			]
+		}
+	]
+}

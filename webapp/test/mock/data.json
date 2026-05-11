@@ -1,0 +1,176 @@
+{
+	"Hi, I want to enter my meter reading.": {
+		"message": "Sure, Casey, what is the meter reading for your meter at 781 Main Street (id #1005643783)"
+	},
+	"12986": {
+		"message": "Thanks, Casey. Did you take it today?",
+		"buttons": "12986.json"
+	},
+	"hi": {
+		"message": "Welcome to Utilities Customer Self-Service Agent",
+		"card": "welcome_card.json"
+	},
+	"Markdown": {
+		"message": "# History of SAP\n\n## Founding and Early Years (1972-1980)\n- **1972**: Founded in Weinheim, Germany as \"Systemanalyse und Programmentwicklung\" (SAP) by:\n  - Dietmar Hopp\n  - Klaus Tschira\n  - Hans-Werner Hector\n  - Hasso Plattner\n  - Claus Wellenreuther\n- **1973**: Launch of SAP's first financial accounting system.\n- **1976**: SAP GmbH (Gesellschaft mit beschränkter Haftung) established.\n- **1979**: Introduction of the R/2 system:\n  - A real-time business application.\n  - Ran on IBM mainframe systems.\n\n## Growth and Global Expansion (1980-1990)\n- **1981**: SAP's R/2 system sees rapid adoption:\n  - Targeted a growing number of clients.\n- **1988**: SAP goes public:\n  - Initial public offering on Frankfurt and Stuttgart stock exchanges.\n- **1989**: Establishment of SAP America:\n  - Marks SAP's entry into the North American market.\n\n## Widespread Adoption and Innovation (1990-2000)\n- **1992**: Launch of SAP R/3:\n  - Client-server version of the software.\n  - Designed to integrate all business processes across an organization.\n- **1996**: Global expansion:\n  - Offices and subsidiaries in numerous countries.\n- **1999**: R/3 evolves:\n  - Caters to internet-based applications.\n  - Supports e-commerce.\n\n## Transition to Integrated Solutions (2000-2010)\n- **2002**: Introduction of mySAP suite:\n  - Integrates traditional business applications.\n  - Includes new e-business processes.\n- **2005**: SAP NetWeaver:\n  - Becomes the technical foundation for SAP applications.\n  - Aids in the integration of information and processes.\n- **2010**: SAP acquires Sybase:\n  - Focus on mobile and database technologies.\n\n## Cloud and Digital Transformation (2010-Present)\n- **2012**: Launch of SAP HANA:\n  - An in-memory database platform.\n  - Supports high-performance analytics.\n  - Enables real-time data applications.\n- **2014**: Major acquisitions:\n  - Concur Technologies (cloud-based travel and expense management).\n  - Fieldglass (cloud-based vendor management system).\n- **2015**: Unveils SAP S/4HANA:\n  - Next-generation business suite.\n  - Built on the HANA platform.\n- **2018**: Acquires Qualtrics:\n  - Enhances SAP's experience management capabilities.\n- **2020**: Accelerates cloud strategy:\n  - In response to COVID-19 pandemic.\n  - Focus on supporting digital transformation.\n\n## Current Focus\n- **Intelligent Enterprise**: Integrates modern technologies like:\n  - AI (Artificial Intelligence).\n  - IoT (Internet of Things).\n  - Advanced analytics.\n- **Cloud-Based Services**:\n  - Continued development of cloud solutions.\n  - Supports businesses in the digital landscape.\n\n## Further Information\nFor more details, visit [SAP's official website](https://www.sap.com).\n![SAPUI5](https://ui5.sap.com/resources/sap/ui/documentation/sdk/images/sap-ui5-logo.svg)\n"
+	},
+	"Invoice": {
+		"message": "The Invoice List card type is used to display a list of invoices. The card can be configured to show different attributes of the invoices, such as invoice number, date, amount, and status. The card can also include actions for each invoice, such as view details or download.",
+		"card": "InvoiceList.json"
+	},
+	"Premise": {
+		"message": "The Premise card type is used to display information about a specific premise. The card can be configured to show different attributes of the premise, such as address, type, and status. The card can also include actions for the premise, such as view details or edit.",
+		"card": "Premise.json"
+	},
+	"Service Contract": {
+		"message": "The Service Contract card type is used to display information about a specific service contract. The card can be configured to show different attributes of the contract, such as contract number, start date, end date, and status. The card can also include actions for the contract, such as view details or renew.",
+		"card": "ServiceContract.json"
+	},
+	"Register Input": {
+		"message": "The Register Input card type is used to display a form for entering data. The card can be configured to show different fields for input, such as text fields, dropdowns, and checkboxes. The card can also include actions for submitting the data, such as save or cancel.",
+		"card": "RegisterInput.json"
+	},
+	"Meter Reading": {
+		"message": "The Meter Reading card type is used to display information about a specific meter reading. The card can be configured to show different attributes of the reading, such as date, value, and status. The card can also include actions for the reading, such as view details or edit.",
+		"card": "MeterReading.json"
+	},
+	"Monthly Consumption": {
+		"message": "The Monthly Consumption card type is used to display information about monthly consumption data. The card can be configured to show different attributes of the consumption, such as month, value, and status. The card can also include actions for the consumption data, such as view details or download.",
+		"card": "MonthlyConsumption.json"
+	},
+	"Monthly Consumption - Single Month": {
+		"message": "The Monthly Consumption card type is used to display information about monthly consumption data. The card can be configured to show different attributes of the consumption, such as month, value, and status. The card can also include actions for the consumption data, such as view details or download.",
+		"card": "MonthlyConsumptionSingleMonth.json"
+	},
+	"Monthly Consumption - Single Month Multiple Services": {
+		"message": "The Monthly Consumption card type is used to display information about monthly consumption data. The card can be configured to show different attributes of the consumption, such as month, value, and status. The card can also include actions for the consumption data, such as view details or download.",
+		"card": "MonthlyConsumptionSingleMonthMultipleServices.json"
+	},
+	"Yearly Consumption": {
+		"message": "The Yearly Consumption card type is used to display information about yearly consumption data. The card can be configured to show different attributes of the consumption, such as year, value, and status. The card can also include actions for the consumption data, such as view details or download.",
+		"card": "YearlyConsumption.json"
+	},
+	"Yearly Consumption - Single Service": {
+		"message": "The Yearly Consumption card type is used to display information about yearly consumption data. The card can be configured to show different attributes of the consumption, such as year, value, and status. The card can also include actions for the consumption data, such as view details or download.",
+		"card": "YearlyConsumptionSingleService.json"
+	},
+	"Compare Consumption Data - Monthly Consumption - Within Contract": {
+		"message": "The Compare Consumption card type is used to compare consumption data over different periods. The card can be configured to show various attributes of the consumption data, such as the consumption values, the dates, and the service type. It may also include visualizations like charts or graphs to facilitate the comparison.",
+		"card": "CompareConsumptionDataMonthlyConsumptionWithinContract.json"
+	},
+	"Compare Consumption Data - Quarterly Consumption - Within Contract": {
+		"message": "The Compare Consumption card type is used to compare consumption data over different periods. The card can be configured to show various attributes of the consumption data, such as the consumption values, the dates, and the service type. It may also include visualizations like charts or graphs to facilitate the comparison.",
+		"card": "CompareConsumptionDataQuarterlyConsumptionWithinContract.json"
+	},
+	"Compare Consumption Data - Yearly Consumption - Within Contract": {
+		"message": "The Compare Consumption card type is used to compare consumption data over different periods. The card can be configured to show various attributes of the consumption data, such as the consumption values, the dates, and the service type. It may also include visualizations like charts or graphs to facilitate the comparison.",
+		"card": "CompareConsumptionDataYearlyConsumptionWithinContract.json"
+	},
+	"Compare Consumption Data - Monthly Consumption - Profile": {
+		"message": "The Compare Consumption card type is used to compare consumption data over different periods. The card can be configured to show various attributes of the consumption data, such as the consumption values, the dates, and the service type. It may also include visualizations like charts or graphs to facilitate the comparison.",
+		"card": "CompareConsumptionDataMonthlyConsumptionProfile.json"
+	},
+	"Compare Consumption Data - Quarterly Consumption - Profile": {
+		"message": "The Compare Consumption card type is used to compare consumption data over different periods. The card can be configured to show various attributes of the consumption data, such as the consumption values, the dates, and the service type. It may also include visualizations like charts or graphs to facilitate the comparison.",
+		"card": "CompareConsumptionDataQuarterlyConsumptionProfile.json"
+	},
+	"Compare Consumption Data - Yearly Consumption - Profile": {
+		"message": "The Compare Consumption card type is used to compare consumption data over different periods. The card can be configured to show various attributes of the consumption data, such as the consumption values, the dates, and the service type. It may also include visualizations like charts or graphs to facilitate the comparison.",
+		"card": "CompareConsumptionDataYearlyConsumptionProfile.json"
+	},
+	"Compare Consumption Data - Monthly Consumption - Across Contracts": {
+		"message": "The Compare Consumption card type is used to compare consumption data over different periods. The card can be configured to show various attributes of the consumption data, such as the consumption values, the dates, and the service type. It may also include visualizations like charts or graphs to facilitate the comparison.",
+		"card": "CompareConsumptionDataMonthlyConsumptionAcrossContracts.json"
+	},
+	"Compare Consumption Data - Quarterly Consumption - Across Contracts": {
+		"message": "The Compare Consumption card type is used to compare consumption data over different periods. The card can be configured to show various attributes of the consumption data, such as the consumption values, the dates, and the service type. It may also include visualizations like charts or graphs to facilitate the comparison.",
+		"card": "CompareConsumptionDataQuarterlyConsumptionAcrossContracts.json"
+	},
+	"Compare Consumption Data - Yearly Consumption - Across Contracts": {
+		"message": "The Compare Consumption card type is used to compare consumption data over different periods. The card can be configured to show various attributes of the consumption data, such as the consumption values, the dates, and the service type. It may also include visualizations like charts or graphs to facilitate the comparison.",
+		"card": "CompareConsumptionDataYearlyConsumptionAcrossContracts.json"
+	},
+	"Device": {
+		"message": "The Device card type is used to display information about a specific device. The card can be configured to show different attributes of the device, such as device number, type, and status. The card can also include actions for the device, such as view details or edit.",
+		"card": "Device.json"
+	},
+	"Contract Account": {
+		"message": "The Contract Account card type is used to display information about a specific contract account. The card can be configured to show different attributes of the account, such as account number, type, and status. The card can also include actions for the account, such as view details or edit.",
+		"card": "ContractAccount.json"
+	},
+	"Premise for Change of Supplier": {
+		"message": "The Premise for Change of Supplier card type is used to display information about a specific premise that is being changed to a new supplier. The card can be configured to show different attributes of the premise, such as address, type, and status. The card can also include actions for the premise, such as view details or edit.",
+		"card": "Premise4Cos.json"
+	},
+	"Premise for Change of Supplier - Single Premise": {
+		"message": "The Premise for Change of Supplier card type is used to display information about a specific premise that is being changed to a new supplier. The card can be configured to show different attributes of the premise, such as address, type, and status. The card can also include actions for the premise, such as view details or edit.",
+		"card": "Premise4CosSinglePremise.json"
+	},
+	"Utilities Product With Prices": {
+		"message": "The UtilitiesProductWithPrices card type is used to display information about a specific utilities product along with its associated prices. The card can be configured to show different attributes of the product, such as product description, division, billing class, reference product, and validity dates. It also includes one-time charges, usage charges, and recurring charges.",
+		"card": "UtilitiesProductWithPrices.json"
+	},
+	"Payment Information": {
+		"message": "The Payment Information card type is used to display payment-related details for a contract account, such as bank accounts, payment cards, and alternative payers/payees. The card can be configured to show different attributes and can include actions for managing payment information.",
+		"card": "PaymentInformation.json"
+	},
+	"Contract": {
+		"message": "The Contract card type is used to display the header data for a specific contract.",
+		"card": "Contract.json"
+	},
+	"Contract Details": {
+		"message": "The Contract Details card type is used to display details for a specific contract. The card can be configured to show different attributes and can include actions for managing contract information.",
+		"card": "ContractDetails.json"
+	},
+	"All Account Balance - Positive": {
+		"message": "The All Account Balance card type is used to display the total balance of all contract accounts for a user. The card can be configured to show different attributes of the accounts, such as contract account ID, description, balance, and currency. It also includes user data type and account ID.",
+		"card": "AllAccountBalancePositive.json"
+	},
+	"All Account Balance - Negative": {
+		"message": "The All Account Balance card type is used to display the total balance of all contract accounts for a user. The card can be configured to show different attributes of the accounts, such as contract account ID, description, balance, and currency. It also includes user data type and account ID.",
+		"card": "AllAccountBalanceNegative.json"
+	},
+	"Contract Account Bill Details - Negative": {
+		"message": "The Contract Account Bill Details card type is used to display detailed information about a specific contract account's bill. The card can be configured to show various attributes of the contract account, such as current balance, total amount, net amount, open collectable, open debits, open credits, and currency.",
+		"card": "ContractAccountBillDetailsNegative.json"
+	},
+	"Contract Account Bill Details - Positive": {
+		"message": "The Contract Account Bill Details card type is used to display detailed information about a specific contract account's bill. The card can be configured to show various attributes of the contract account, such as current balance, total amount, net amount, open collectable, open debits, open credits, and currency.",
+		"card": "ContractAccountBillDetailsPositive.json"
+	},
+	"Contract Information": {
+		"message": "The Contract Information card type is used to display detailed information about a specific contract, including premises, contracts, and other related items. The card can be configured to show various attributes of the contract, such as contract ID, description, and associated premises.",
+		"card": "ContractInformation.json"
+	},
+	"Single Date Picker": {
+		"message": "The Single Date Picker card type is used to display a form for selecting a single date. The card can be configured to show a date input field and can include actions for submitting the selected date.",
+		"card": "SingleDatePicker.json"
+	},
+	"Date Range Picker": {
+		"message": "The Date Range Picker card type is used to display a form for selecting a range of dates. The card can be configured to show two date input fields (start and end date) and can include actions for submitting the selected date range.",
+		"card": "DateRangePicker.json"
+	},
+	"New Utilities Products With Prices": {
+		"message": "The New Utilities Products With Prices card type is used to display information about specific new utilities products along with their associated prices. The card can be configured to show different attributes of the products, such as product description, division, billing class, reference product, and validity dates. It also includes one-time charges, usage charges, and recurring charges.",
+		"card": "UtilitiesProductsWithPrices.json"
+	},
+	"Budget Billing Plan": {
+		"message": "The Budget Billing Plan card type is used to display the header data for a specific budget billing plan.",
+		"card": "BudgetBillingPlan.json"
+	},
+	"Budget Billing Plan Details": {
+		"message": "The Budget Billing Plan Details card type is used to display details for a specific budget billing plan. The card can be configured to show different attributes and can include actions for managing budget billing plan information.",
+		"card": "BudgetBillingPlanDetails.json"
+	},
+	"Product By Contract": {
+		"message": "The View Products by Contract card type is used to display product details filtered by contracts. The card can be configured to show different attributes of the products, such as product description, division, and reference product.",
+		"card": "ProductByContract.json"
+	},
+	"File Uploader": {
+		"message": "The File Uploader card type is used to display a form for uploading a file. The card can be configured to show a file input field and can include actions for submitting the selected file.",
+		"card": "FileUploader.json"
+	},
+	"Business Partners": {
+		"message": "The Business Partners card type is used to display information about business partners associated with a user. The card can be configured to show different attributes of the business partners, such as AccountID and FullName. It also includes actions for each business partner, such as viewing details.",
+		"card": "BusinessPartners.json"
+	}
+}

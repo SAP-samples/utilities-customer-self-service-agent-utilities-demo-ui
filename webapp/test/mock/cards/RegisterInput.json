@@ -1,0 +1,19 @@
+{
+    "type": "registerInput",
+    "data": [
+        {
+            "registerID": "001",
+            "deviceID": "10185407",
+            "registerTypeID": "01",
+            "serialNumber": "1002007",
+            "registerCode": "ONPEAK1"
+        },
+        {
+            "registerID": "002",
+            "deviceID": "10185407",
+            "registerTypeID": "02",
+            "serialNumber": "1002007",
+            "registerCode": "OFFPEAK1"
+        }
+    ]
+}

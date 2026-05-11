@@ -1,0 +1,17 @@
+{
+    "buttons": [
+        {
+            "label": "Confirm",
+            "press": {
+                "message": "I confirm the meter reading data"
+            }
+        },
+        {
+            "label": "Change"
+        },
+        {
+            "label": "Cancel"
+        }
+    ],
+    "parent": "Card"
+}

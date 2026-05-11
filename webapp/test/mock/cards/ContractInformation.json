@@ -1,0 +1,130 @@
+{
+    "type": "userAccount",
+    "data": {
+        "contractAccounts": [],
+        "userDataType": "ContractInformation",
+        "totalBalance": 0,
+        "currency": "",
+        "userContractAccountBalances": [],
+        "accountID": "1113855",
+        "contractAccountID": "1643341",
+        "premises": [
+            {
+                "standardFlag": "",
+                "city": "Anytown",
+                "district": "",
+                "postalCode": "57201",
+                "POBoxPostalCode": "",
+                "POBox": "",
+                "street": "Sunnybrook Street",
+                "houseNo": "7245",
+                "building": "",
+                "floor": "",
+                "roomNo": "",
+                "countryID": "DE",
+                "countryName": "",
+                "region": "",
+                "regionName": "",
+                "timeZone": "CET",
+                "taxJurisdictionCode": "",
+                "languageID": "",
+                "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+                "premiseTypeID": "0003",
+                "premiseID": "647855",
+                "premiseTypeDescription": "Single Family Home"
+            },
+            {
+                "standardFlag": "",
+                "city": "Anytown",
+                "district": "",
+                "postalCode": "57401",
+                "POBoxPostalCode": "",
+                "POBox": "",
+                "street": "Main Street",
+                "houseNo": "781",
+                "building": "",
+                "floor": "",
+                "roomNo": "",
+                "countryID": "DE",
+                "countryName": "",
+                "region": "",
+                "regionName": "",
+                "timeZone": "CET",
+                "taxJurisdictionCode": "",
+                "languageID": "",
+                "shortForm": "Main Street 781 / 57401 Anytown",
+                "premiseTypeID": "0005",
+                "premiseID": "647856",
+                "premiseTypeDescription": "Two-room apartment"
+            }
+        ],
+        "contracts": [
+            {
+                "contractID": "138538",
+                "historicFlag": false,
+                "divisionID": "01",
+                "productDescription": "",
+                "contractAccountID": "1643341",
+                "premiseID": "647855",
+                "processingStatus": "",
+                "description": "Heating tariff",
+                "moveInDate": "/Date(1723766400000)/",
+                "moveOutDate": "/Date(253402214400000)/",
+                "shortForm": "",
+                "isContractInactive": false
+            },
+            {
+                "contractID": "138108",
+                "historicFlag": false,
+                "divisionID": "01",
+                "productDescription": "",
+                "contractAccountID": "1643341",
+                "premiseID": "647855",
+                "processingStatus": "",
+                "description": "Household tariff",
+                "moveInDate": "/Date(1723766400000)/",
+                "moveOutDate": "/Date(253402214400000)/",
+                "shortForm": "",
+                "isContractInactive": false
+            },
+            {
+                "contractID": "138391",
+                "historicFlag": false,
+                "divisionID": "03",
+                "productDescription": "",
+                "contractAccountID": "1643341",
+                "premiseID": "647856",
+                "processingStatus": "",
+                "description": "Water tariff",
+                "moveInDate": "/Date(1611187200000)/",
+                "moveOutDate": "/Date(253402214400000)/",
+                "shortForm": "",
+                "isContractInactive": false
+            },
+            {
+                "contractID": "136246",
+                "historicFlag": false,
+                "divisionID": "01",
+                "productDescription": "",
+                "contractAccountID": "1643341",
+                "premiseID": "647856",
+                "processingStatus": "",
+                "description": "Household tariff",
+                "moveInDate": "/Date(1611187200000)/",
+                "moveOutDate": "/Date(253402214400000)/",
+                "shortForm": "",
+                "isContractInactive": false
+            }
+        ],
+        "serviceDetails": [
+            {
+                "serviceName": "Electricity",
+                "serviceType": "01"
+            },
+            {
+                "serviceName": "Water",
+                "serviceType": "03"
+            }
+        ]
+    }
+}

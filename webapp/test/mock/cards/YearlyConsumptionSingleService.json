@@ -1,0 +1,37 @@
+{
+  "type": "yearlyConsumption",
+  "data": [
+      {
+        "contractID": "138538",
+        "contractDescription": "Heating tariff",
+        "division": "Electricity",
+        "premise": {
+          "standardFlag": "",
+          "city": "Anytown",
+          "district": "",
+          "postalCode": "57201",
+          "POBoxPostalCode": "",
+          "POBox": "",
+          "street": "Sunnybrook Street",
+          "houseNo": "7245",
+          "building": "",
+          "floor": "",
+          "roomNo": "",
+          "countryID": "DE",
+          "countryName": "",
+          "region": "",
+          "regionName": "",
+          "timeZone": "CET",
+          "taxJurisdictionCode": "",
+          "languageID": "",
+          "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+          "premiseTypeID": "0003",
+          "premiseID": "647855",
+          "premiseTypeDescription": "Single Family Home"
+        },
+        "intervalType": "Yearly",
+        "period": "Jan 01, 2024 - Sep 30, 2024",
+        "values": [{ "consumption": 2376, "unit": "KWH" }]
+      }
+    ]
+}

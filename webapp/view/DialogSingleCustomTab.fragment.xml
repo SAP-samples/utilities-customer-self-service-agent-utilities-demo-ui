@@ -1,0 +1,256 @@
+<core:FragmentDefinition
+    xmlns:layout="sap.ui.layout"
+    xmlns="sap.m"
+    xmlns:u="sap.uxap"
+    xmlns:ui="sap.ui.unified"
+    xmlns:core="sap.ui.core"
+>
+    <Dialog
+        id="cpage"
+        showHeader="true" title="Customize" 
+        verticalScrolling="false"
+        initialFocus="headerTitle"
+        class="dssaCustomDialogTitle customDialogFontSize"
+    >
+        <u:ObjectPageLayout id="objectPageLayout" showHeaderContent="false">
+            <!-- <u:headerTitle>
+                <u:ObjectPageHeader
+                    id='oph1'
+                    objectTitle="Customize"
+                />
+            </u:headerTitle> -->
+            <u:sections>
+                <u:ObjectPageSection id='cps1' class="customObjectPageSectionHeader">
+                    <u:subSections>
+                        <u:ObjectPageSubSection id='cpss1'>
+                            <u:blocks>
+                                <Panel
+                                    id="p1"
+                                    height="250px"
+                                >
+                                    <Label
+                                        text="Upload Background Video"
+                                        design="Bold"
+                                        id="l1"
+                                    />
+                                    <HBox
+                                        id = "uploadVideoHBox"
+                                        justifyContent="Start"
+                                        alignItems="Center"
+                                        width="100%"
+                                        class="dssaSpacingBetweenElements">
+                                        <ui:FileUploader id="fileUploaderVideo" 
+                                                         typeMissmatch="handleTypeMissmatch"
+                                                         style="Emphasized"
+			                                             fileType="mp4"
+                                                         placeholder="Choose a file for Upload..."
+                                                         multiple="false"
+                                                          />
+                                        <Button
+                                            id="uploadVideoButton"
+                                            class="vsdSetting"
+                                            width="auto"
+                                            text="Upload"
+                                            press="onUploadVideo"
+                                        />
+                                    </HBox>
+                                    <Label
+                                        id="l2"
+                                        text="Upload Company Logo"
+                                        design="Bold"
+                                    />
+                                    <HBox
+                                        id = "uploadImageHBox"
+                                        justifyContent="Start"
+                                        alignItems="Center"
+                                        width="100%"
+                                        class="dssaSpacingBetweenElements">
+                                        <ui:FileUploader id="fileUploaderLogo" 
+                                                         typeMissmatch="handleTypeMissmatch"
+                                                         style="Emphasized"
+			                                             fileType="jpeg,png,jpg"
+                                                         placeholder="Choose a file for Upload..."
+                                                         multiple="false"
+                                                          />
+                                        <Button
+                                            id="uploadImageButton"
+                                            class="vsdSetting"
+                                            width="100%"
+                                            text="Upload"
+                                            press="onUploadImage"
+                                         />
+                                     </HBox>
+                                    <Label
+                                        id="l5"
+                                        text="Set Color for Chats"
+                                        design="Bold"
+                                    />
+                                    <Button
+                                        id="colorButton"
+                                        class="vsdSetting"
+                                        width="100%"
+                                        text="Color"
+                                        press="onColorChange"
+                                    />
+                                    <Label
+                                        id="l6"
+                                        text=""
+                                        design="Bold"
+                                    />
+                                    <Button
+                                        id="textButton"
+                                        class="vsdSetting"
+                                        width="50%"
+                                        text="Edit Welcome Text"
+                                        press="onChangeText"
+                                    />
+                                    <Input
+                                        id="welcomeTextInput"
+                                        value="{customModel>/draft/welcomeText}"
+                                        ariaDescribedBy="descriptionNodeId"
+                                        width="400px"
+                                        fieldWidth="75%"
+                                        class="sapUiSmallMarginBottom"
+                                        editable="false"
+                                        liveChange=".onTextChange"
+                                    />
+                                    <VBox
+                                        id='vb1'
+                                        class="sapUiContentPadding"
+                                    >
+                                        <HBox
+                                            id="hb1"
+                                            class="dssaCustomELementSpacing"
+                                        >
+                                            <Label
+                                                id="l7"
+                                                design="Bold"
+                                                text="Select Font Size"
+                                                class="sapUiSmallMarginTop sapUiSmallMarginEnd"
+                                            />
+                                            <Slider
+                                                id="fontSizeSlider"
+                                                min="12"
+                                                max="28"
+                                                value="{customModel>/customization/fontSize}"
+                                                liveChange=".onFontSizeChange"
+                                                width="100%"
+                                                class="sapUiSmallMarginTop"
+                                            >
+                                                <layoutData>
+                                                    <FlexItemData
+                                                        id="sliderFlex"
+                                                        growFactor="1"
+                                                    />
+                                                </layoutData>
+                                            </Slider>
+                                        </HBox>
+                                        <HBox
+                                            id="hb2"
+                                            justifyContent="SpaceBetween"
+                                            class="dssaCustomELementSpacing sapUiSmallMarginEnd"
+                                        >
+                                            <Label
+                                                id="l8"
+                                                design="Bold"
+                                                text="Select Font Family"
+                                                class="sapUiSmallMarginEnd"
+                                            />
+                                            <ComboBox
+                                                id="fontFamilyComboBox"
+                                                selectionChange=".onFontFamilyChange"
+                                                width="100%"
+                                                selectedKey="{customModel>/customization/font}"
+                                            >
+                                                <core:Item
+                                                    id="i1"
+                                                    key="Arial, sans-serif"
+                                                    text="Arial"
+                                                />
+                                                <core:Item
+                                                    id="i2"
+                                                    key="'Times New Roman', serif"
+                                                    text="Times New Roman"
+                                                />
+                                                <core:Item
+                                                    id="i3"
+                                                    key="'Courier New', monospace"
+                                                    text="Courier New"
+                                                />
+                                            </ComboBox>
+                                        </HBox>
+                                    </VBox>
+
+                                    <HBox
+                                        id="hb3"
+                                        justifyContent="Start"
+                                        alignItems="Center"
+                                        class="dssaCustomELementSpacing"
+                                    >
+                                        <HBox
+                                            id="hb4"
+                                            justifyContent="End"
+                                            alignItems="End"
+                                        >
+                                            <ToggleButton
+                                                id='boldButton'
+                                                text="B"
+                                                pressed="{customModel>/boldPressed}"
+                                                press=".onBoldText"
+                                            />
+                                            <ToggleButton
+                                                id='italicsButton'
+                                                text="I"
+                                                pressed="{customModel>/italicsPressed}"
+                                                press=".onItalicsText"
+                                            />
+                                            <ToggleButton
+                                                id='underlineButton'
+                                                text="U"
+                                                pressed="{customModel>/underlinePressed}"
+                                                press=".onUnderlinedText"
+                                            />
+                                        </HBox>
+                                        <layout:Grid
+                                            id="fontGrid"
+                                            defaultSpan="XL3 L4 M6 S12"
+                                        >
+                                            <Text
+                                                id="sampleText"
+                                                text="Sample Text"
+                                                class="sampleText sapUiSmallMarginBegin dssaSampleText"
+                                            />
+                                        </layout:Grid>
+                                    </HBox>
+                                </Panel>
+                                <Button
+                                    id="resetButton"
+                                    class="vsdSetting"
+                                    width="20%"
+                                    text="Reset"
+                                    press="onResetFactorySettings"
+                                />
+                            </u:blocks>
+                        </u:ObjectPageSubSection>
+                    </u:subSections>
+                </u:ObjectPageSection>
+            </u:sections>
+        </u:ObjectPageLayout>
+        <footer>
+            <Toolbar id="footerToolbar">
+                <ToolbarSpacer id="toolbarspacer" />
+                <Button
+                    id="save"
+                    text="Save"
+                    press=".onSavePressed"
+                    type="Emphasized"
+                />
+                <Button
+                    id="cancel"
+                    text="Cancel"
+                    press=".onCancelPressed"
+                />
+            </Toolbar>
+        </footer>
+    </Dialog>
+</core:FragmentDefinition>

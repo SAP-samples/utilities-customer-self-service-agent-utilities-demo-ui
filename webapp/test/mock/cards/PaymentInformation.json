@@ -1,0 +1,52 @@
+{
+  "type": "PaymentInformation",
+  "data": [
+    {
+      "contractAccountID": "1234567890",
+      "incomingBankAccount": {
+        "accountHolder": "John Doe",
+        "iBAN": "DE89370400440532013000",
+        "bank": { "name": "Deutsche Bank" }
+      },
+      "outgoingBankAccount": {
+        "accountHolder": "Jane Smith",
+        "iBAN": "FR7630006000011234567890189",
+        "bank": { "name": "BNP Paribas" }
+      },
+      "incomingPaymentCard": {
+        "cardholder": "John Doe",
+        "cardNumber": "4111111111111111",
+        "paymentCardType": "Visa",
+        "issuer": "Chase"
+      },
+      "outgoingPaymentCard": {
+        "cardholder": "Jane Smith",
+        "cardNumber": "5500000000000004",
+        "paymentCardType": "MasterCard",
+        "issuer": "HSBC"
+      },
+      "incomingAlternativePayerBankAccount": {
+        "accountHolder": "Alt Payer",
+        "iBAN": "IT60X0542811101000000123456",
+        "bank": { "name": "Intesa Sanpaolo" }
+      },
+      "outgoingAlternativePayeeBankAccount": {
+        "accountHolder": "Alt Payee",
+        "iBAN": "ES9121000418450200051332",
+        "bank": { "name": "Santander" }
+      },
+      "incomingAlternativePayerPaymentCard": {
+        "cardholder": "Alt Payer",
+        "cardNumber": "340000000000009",
+        "paymentCardType": "American Express",
+        "issuer": "Amex"
+      },
+      "outgoingAlternativePayeePaymentCard": {
+        "cardholder": "Alt Payee",
+        "cardNumber": "30000000000004",
+        "paymentCardType": "Diners Club",
+        "issuer": "Diners"
+      }
+    }
+  ]
+}

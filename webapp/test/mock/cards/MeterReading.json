@@ -1,0 +1,79 @@
+{
+    "type": "meterReading",
+    "data": [
+        {
+            "premise": {
+                "standardFlag": "",
+                "city": "Anytown",
+                "district": "",
+                "postalCode": "57201",
+                "POBoxPostalCode": "",
+                "POBox": "",
+                "street": "Sunnybrook Street",
+                "houseNo": "7245",
+                "building": "",
+                "floor": "",
+                "roomNo": "",
+                "countryID": "DE",
+                "countryName": "",
+                "region": "",
+                "regionName": "",
+                "timeZone": "CET",
+                "taxJurisdictionCode": "",
+                "languageID": "",
+                "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+                "premiseTypeID": "0003",
+                "premiseID": "647855",
+                "premiseTypeDescription": "Single Family Home"
+            },
+            "meterID": "10185407",
+            "meterReading": [
+                {
+                    "meterReadingResultID": "",
+                    "registerID": "001",
+                    "readingDateTime": "2025-05-29",
+                    "readingResult": "98",
+                    "readingUnit": "kWh",
+                    "registerCode": "ONPEAK1"
+                }
+            ]
+        },
+        {
+            "premise": {
+                "standardFlag": "",
+                "city": "Anytown",
+                "district": "",
+                "postalCode": "57201",
+                "POBoxPostalCode": "",
+                "POBox": "",
+                "street": "Sunnybrook Street",
+                "houseNo": "7245",
+                "building": "",
+                "floor": "",
+                "roomNo": "",
+                "countryID": "DE",
+                "countryName": "",
+                "region": "",
+                "regionName": "",
+                "timeZone": "CET",
+                "taxJurisdictionCode": "",
+                "languageID": "",
+                "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+                "premiseTypeID": "0003",
+                "premiseID": "647855",
+                "premiseTypeDescription": "Single Family Home"
+            },
+            "meterID": "10185407",
+            "meterReading": [
+                {
+                    "meterReadingResultID": "",
+                    "registerID": "002",
+                    "readingDateTime": "2025-05-29",
+                    "readingResult": "75",
+                    "readingUnit": "kWh",
+                    "registerCode": "OFFPEAK1"
+                }
+            ]
+        }
+    ]
+}

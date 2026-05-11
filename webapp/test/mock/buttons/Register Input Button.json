@@ -1,0 +1,11 @@
+{
+    "buttons": [
+        {
+            "label": "Submit",
+            "press": {
+                "dssa.card.button.linkage": "1234567890"
+            }
+        }
+    ],
+    "parent": "Card"
+}

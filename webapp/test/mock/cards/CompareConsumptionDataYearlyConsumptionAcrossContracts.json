@@ -1,0 +1,33 @@
+{
+	"type": "compareConsumption",
+	"data": [
+		{
+			"contractID": "138538",
+			"contractDescription": "Heating tariff",
+			"division": "Electricity",
+			"intervalType": "Yearly",
+			"comparisonType": "AcrossContracts",
+			"values": [
+				{
+					"period": "2022-06-22 - 2023-06-21",
+					"consumption": 1234,
+					"unit": "KWH"
+				}
+			]
+		},
+		{
+			"contractID": "138108",
+			"contractDescription": "Household tariff",
+			"division": "Electricity",
+			"intervalType": "Yearly",
+			"comparisonType": "AcrossContracts",
+			"values": [
+				{
+					"period": "2022-06-22 - 2023-06-21",
+					"consumption": 2345,
+					"unit": "KWH"
+				}
+			]
+		}
+	]
+}

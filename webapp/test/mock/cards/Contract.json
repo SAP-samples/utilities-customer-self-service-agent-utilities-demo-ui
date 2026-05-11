@@ -1,0 +1,35 @@
+{
+	"type": "contract",
+	"data": [
+		{
+			"contractID": "1234567890",
+			"contractAccountID": "1234567890",
+			"isContractInactive": false,
+			"premiseID": "1234567890",
+			"divisionID": "01",
+			"processingStatus": "",
+			"productID": "GEPLUS",
+			"productDescription": "Eco Product GEPLUS",
+			"description": "GreenEnergy+",
+			"historicFlag": "",
+			"moveInDate": "/Date(1611187200000)/",
+			"moveOutDate": "/Date(253402214400000)/",
+			"shortForm": "Sunnybrook Street 1234 / 57201 Anytown"
+		},
+		{
+			"contractID": "1182365203",
+			"contractAccountID": "1182365203",
+			"isContractInactive": true,
+			"premiseID": "1182365203",
+			"divisionID": "01",
+			"processingStatus": "",
+			"productID": "ECO_ELECTRICITY",
+			"productDescription": "",
+			"description": "",
+			"historicFlag": "",
+			"moveInDate": "/Date(1611187200000)/",
+			"moveOutDate": "/Date(1723766400000)/",
+			"shortForm": "Sunnybrook Street 9876 / 57201 Anytown"
+		}
+	]
+}

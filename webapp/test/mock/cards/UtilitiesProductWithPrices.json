@@ -1,0 +1,621 @@
+{
+    "type": "UtilitiesProductWithPrices",
+    "data": [
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_1",
+                "productDescription": "Smart meter MDUS - basis plan(1)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS1",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(631152000000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.29",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2",
+                "productDescription": "Smart meter MDUS - basis plan 2(2)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS1",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(631152000000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.29",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(3)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(4)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(5)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(6)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(7)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(8)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(9)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(10)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(11)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(12)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(13)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(14)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(15)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_UPIL_PROD_MDUS_2_S",
+                "productDescription": "Smart meter MDUS - student plan(16)",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_UPIL_REF_PROD_MDUS2",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1577836800000)/",
+                "validityEndDate": "/Date(1922313600000)/"
+            },
+            "oneTimeCharge": {
+                "activationFee": {
+                    "utilsPriceAmount": "25.00",
+                    "utilsPriceUnit": "EUR"
+                },
+                "terminationFee": {
+                    "utilsPriceAmount": "200.00",
+                    "utilsPriceUnit": "EUR"
+                }
+            },
+            "usageCharge": [
+                {
+                    "utilsPriceAmount": "0.22",
+                    "utilsPriceUnit": "EUR",
+                    "UtilsMeasurementUnit": "KWH"
+                },
+                {
+                    "utilsPriceAmount": "0.00",
+                    "UtilsMeasurementUnit": "KWH"
+                }
+            ],
+            "recurringCharge": [
+                {
+                    "utilsPriceAmount": "0.00"
+                }
+            ]
+        }
+    ]
+}

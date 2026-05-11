@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" core:require="{ controller: 'com/sap/utl/ai/ui/dssa/controller/UserList' }">
+    <Dialog id="user-list-dialog" title="Select a User" draggable="false" resizable="false">
+        <content>
+            <ComboBox id="user-list" width="88%" class="sapUiSmallMarginTopBottom sapUiSmallMarginBeginEnd" required="true" change="onUserSelectionChange" items="{ path: 'config>/users', templateShareable: true }">
+                <items>
+                    <core:ListItem id="user-item" key="{config>ucssa-userid}" text="{path:'config>',formatter:'controller.formatItemText'}" additionalText="{= JSON.stringify(${config>businessPartners})}"/>
+                </items>
+            </ComboBox>
+        </content>
+        <beginButton>
+            <Button id="btn-confirm-user-selection" text="OK" press="confirmUserSelection" type="Emphasized"/>
+        </beginButton>
+    </Dialog>
+</core:FragmentDefinition>

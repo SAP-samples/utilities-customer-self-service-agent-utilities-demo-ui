@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/assets/SAPLogo.svg" type="image/jpg">
+    <title>Utilities Customer Self-Service Agent</title>
+    <style>
+        html, body, body > div, #container, #container-uiarea {
+            height: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+        window["sap-ui-config"] = {
+            "language" : "en-US"
+        }
+    </script>
+    <script
+        id="sap-ui-bootstrap"
+        src="https://ui5.sap.com/1.133.5/resources/sap-ui-core.js"
+        data-sap-ui-theme="sap_horizon"
+        data-sap-ui-resourceroots='{
+            "com.sap.utl.ai.ui.dssa": "./"
+        }'
+        data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+        data-sap-ui-compatVersion="edge"
+        data-sap-ui-async="true"
+        data-sap-ui-frameOptions="trusted"
+    ></script>
+    <script type="text/javascript">
+		sap.ui.getCore().attachInit(function() {
+            // get query parameter dssa-mock from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            const dssaMock = urlParams.get('dssa-mock') || "false";
+			// add a new div element to the content of the body
+            const oDiv = document.createElement("div");
+            oDiv.setAttribute("data-sap-ui-component", "");
+            oDiv.setAttribute("data-name", "com.sap.utl.ai.ui.dssa");
+            oDiv.setAttribute("data-id", "container");
+            const oSettings = {
+                "id": "com.sap.utl.ai.ui.dssa",
+                "componentData": {
+                    "dssaMock": dssaMock === "true"
+                }
+            };
+            oDiv.setAttribute("data-settings", JSON.stringify(oSettings));
+            oDiv.setAttribute("data-handle-validation", "true");
+            document.getElementById("content").appendChild(oDiv);
+		});
+	</script>
+</head>
+<body class="sapUiBody sapUiSizeCompact" id="content">
+</body>
+</html>

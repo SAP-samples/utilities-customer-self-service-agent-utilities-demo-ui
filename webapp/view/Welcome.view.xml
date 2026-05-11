@@ -1,0 +1,33 @@
+<mvc:View controllerName="com.sap.utl.ai.ui.dssa.controller.Welcome"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns:w="sap.ui.integration.widgets" xmlns:dssa="com.sap.utl.ai.ui.dssa.control"
+    xmlns="sap.m" xmlns:core="sap.ui.core">
+    <dssa:WelcomeBackground id="welcome-backgroud" src="{= ${configText>/backgroundSource} ? ${configText>/backgroundSource} : './assets/welcome-background.mp4' }"/>
+    <Page id="page" class="dssaWelcomePage">
+        <headerContent>
+            <FlexBox id="page-header" width="100%" class="dssaWelcomePageHeaderBox"
+				alignItems="Center"
+				justifyContent="SpaceBetween">
+                <HBox id="page-header-left" class="dssaPageHeaderHBox sapUiTinyMarginBegin sapUiTinyMarginTop">
+                    <Image id="page-image" src="{path:'configText>/companyImage', formatter: '.getHeadImageSrc'}" mode="Image" visible="{= ${configText>/companyImage} ? true : false }"/>
+                    <Title id="page-title" text="{configText>/companyName}" class="dssaPageTitle" visible="{= ${configText>/companyName} ? true : false }" />
+                </HBox>
+                <HBox id="page-header-right" class="dssaPageHeaderHBox sapUiTinyMarginTop">
+                    <Button id="page-user-edit" icon="sap-icon://user-edit" class="dssaPageHeaderButtons" tooltip="Change a user" press="confirmChangeUser"/>
+                    <Button id="page-more-options" icon="sap-icon://overflow" class="dssaPageHeaderButtons" press="openMoreOptionsMenu" />
+                    <Button id="page-grid" icon="sap-icon://grid" class="dssaPageHeaderButtons " />
+                </HBox>
+			</FlexBox>
+		</headerContent>
+        <content>
+            <dssa:WelcomeGreeting id="greeting"
+                greetingUser="{parts:['configText>/welcomeUserName', 'user>/firstname', 'i18n>hello'], formatter: '.getUserName'}"
+                greetingWelcome="{= ${configText>/welcomeTitle} ? ${configText>/welcomeTitle} : ${i18n>welcome} }"
+                greetingText="{= ${configText>/welcomeText} ? ${configText>/welcomeText} : ${i18n>welcomeText} + ' OpenUtil. Ltd.'}"
+                greetingTextQuestion="{= ${configText>/welcomeTextQuestion} ? ${configText>/welcomeTextQuestion} : ${i18n>welcomeQuestion}}"
+                 />
+            <HBox id="input-hbox" class="sapUiMediumMarginTop sapUiSmallMarginBeginEnd">
+                <core:Fragment fragmentName="com.sap.utl.ai.ui.dssa.view.MessageInput" type="XML" />
+            </HBox>
+        </content>
+    </Page>
+</mvc:View>

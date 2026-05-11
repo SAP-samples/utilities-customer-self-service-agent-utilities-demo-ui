@@ -1,0 +1,666 @@
+:root {
+    --app-font-size: 16px;
+    --app-font-family: Arial, sans-serif;
+    --app-bot-background-color: #d0d7da;
+    --app-user-background-color: #c7dbf0;
+    --app-card-background-color: none;
+    --app-font-weight: normal;
+    --app-font-style: normal;
+    --app-text-decoration: none;
+
+    /* --dssa-welcome-user-name-font-size: 1rem; */
+}
+
+.dssaBusyBlinking {
+    animation: blink .5s step-end infinite;
+    width: 8px;
+    height: 3px;
+    display: inline-block;
+    background-color: #000;
+}@keyframes blink{50%{visibility:hidden}}
+
+.dssaMessagePage {
+    background-color: var(--dssa-chat-page-background-color, var(--sapBackgroundColor));
+}
+
+.dssaMessagePage > section {
+    height: calc(100% - 5rem);
+}
+
+.dssaMessagePage > section > div {
+    margin-bottom: 10px;
+}
+
+.dssaMessagePage .sapMPageHeader > div {
+    background-color: var(--dssa-message-page-header-background-color, #001526);
+}
+
+.dssaMessageList ul {
+    display: flex !important;
+}
+
+div[class*="dssaMessageList"]>ul {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.dssaMessageListItem {
+    margin: 10px;
+    max-width: fit-content;
+}
+
+.dssaMessageListItemUser {
+    background: var(--dssa-user-chat-bubble-background-color, #c7dbf0);
+    border-radius: 8px 8px 0px 8px;
+    align-self: flex-end;
+    margin: 10px;
+    padding: 10px;
+    white-space: pre-wrap;
+    font-size: var(--dssa-user-chat-bubble-text-font-size, .875rem);
+    font-family: var(--dssa-user-chat-bubble-text-font-family, Arial, sans-serif);
+    font-weight: var(--dssa-user-chat-bubble-text-font-weight, normal);
+    text-decoration: var(--app-text-decoration);
+}
+
+.dssaMessageListItemUser > span {
+    /* color: #32373D; */
+    color: var(--dssa-user-chat-bubble-text-color, #32373D);
+}
+
+.dssaMessageListItemBot {
+    max-width: 60%;
+    /* color: var(--dssa-bot-chat-bubble-text-color, #2A2A2A); */
+    background: var(--dssa-bot-chat-bubble-background-color, #d0d7da);
+    border-radius: 8px 8px 8px 0px;
+    align-self: flex-start;
+    margin: 10px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    font-size: var(--dssa-bot-chat-bubble-text-font-size, .875rem);
+    font-family: var(--dssa-bot-chat-bubble-text-font-family, Arial, sans-serif);
+    font-weight: var(--dssa-bot-chat-bubble-text-font-weight, normal);
+}
+
+.dssaShowdownText > :first-child {
+    color: var(--dssa-bot-chat-bubble-text-color, #2A2A2A);
+    margin-block-start: 0px;
+    margin-block-end: 1em;
+    font-size: var(--dssa-bot-chat-bubble-text-font-size, .875rem);
+    font-family: var(--dssa-bot-chat-bubble-text-font-family, Arial, sans-serif);
+    /* font-weight: var(--dssa-bot-chat-bubble-text-font-weight, normal); */
+}
+.dssaShowdownText :last-child {
+    margin-block-end: 0px;
+    font-size: var(-dssa-bot-chat-bubble-text-font-size, .875rem);
+    font-family: var(--dssa-bot-chat-bubble-text-font-family, Arial, sans-serif);
+    /* font-weight: var(--dssa-bot-chat-bubble-text-font-weight, normal); */
+}
+
+.dssaMessageListItemUi5Card {
+    align-self: center;
+    width: 80%;
+    background: none;
+    height: 100%;
+}
+
+.dssaMessageListItemUi5Card .sapFCardHeader {
+    background-color: var(--dssa-ui5-card-background-color, #fff);
+    /* font-family: fangsong; */
+    /* font-family: var(--dssa-ui5-card-font-family, "72-Bold","72-Boldfull","72","72full",Arial,Helvetica,sans-serif);
+    font-size: var(--dssa-ui5-card-font-size, .875rem);
+    font-weight: var(--dssa-ui5-card-font-weight, normal); */
+}
+
+.dssaMessageListItemUi5Card .sapFCardContent {
+    background-color: var(--dssa-ui5-card-background-color, #fff);
+}
+
+/* to make card content single column for multiple groups */
+.dssaMessageListItemUi5Card .dssaUI5CardSingleGroup .sapUiAFLayout {
+    display: block;
+}
+
+/* .dssaMessageListItemUi5Card .sapFCardHeader *:not(.sapFAvatarTypeIcon):not(.sapUiIcon) {
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+} */
+
+/* .dssaMessageListItemUi5Card .sapFCardContent {
+    font-family: var(--dssa-ui5-card-font-family, "72","72full",Arial,Helvetica,sans-serif);
+    font-size: var(--dssa-ui5-card-font-size, .875rem);
+    font-weight: var(--dssa-ui5-card-font-weight, normal);
+} */
+
+/* .dssaMessageListItemUi5Card .sapFCardContent *:not(.sapFAvatarTypeIcon):not(.sapUiIcon) {
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+} */
+
+.dssaFooterToolbar{
+    background: transparent !important;
+    border: none !important;
+    min-height: fit-content;
+    margin-bottom: 5px;
+}
+
+.dssaFooterToolbar > ui5-ai-prompt-input {
+    width: 100% !important;
+}
+.ai-prompt-input-wrapper {
+    width: 100% !important;
+}
+
+.dssaFooterToolbar > div:nth-of-type(2) > div > div {
+    background-color: var(--dssa-welcome-page-chatbox-fill-color, #f5f6f7);
+}
+
+.dssaFlexGrow{
+    flex-grow: 1;
+}
+
+.dssaMessageButton {
+    width: 1.625rem;
+    height: 1.625rem;
+}
+
+.dssaMessageTextArea textarea:focus {
+    border-color: transparent !important;
+    font-size: var(--app-font-size) !important;
+    font-family: var(--app-font-family) !important;
+    font-weight: var(--app-font-weight)!important;
+    font-style: var(--app-font-style)!important;
+    text-decoration: var(--app-text-decoration)!important;
+}
+
+.dssaMessageFooterBox{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: var(--sapBackgroundColor);
+    border-bottom: solid 3px var(--sapContent_FocusColor);
+    outline: none;
+}
+
+.dssaMessageFooterBoxFocus  {
+    border-bottom: none;
+    outline: solid 3px var(--sapContent_FocusColor);
+    border-radius: .5rem;
+}
+
+.dssaMessageFooterBox:is(:hover, :focus)  {
+    border-bottom: none;
+    outline: solid 3px var(--sapContent_FocusColor);
+    border-radius: .5rem;
+}
+
+.dssaMessageClear {
+    width: 1.625rem;
+    visibility: hidden;
+}
+
+.dssaWelcomeBackground {
+    /* position: fixed;  need adjustment in config preview */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.dssaComanyLogo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    overflow: hidden;
+}
+
+.dssaWelcomeBackgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit:fill;
+}
+@media only screen and (max-width: 600px) {
+    .dssaWelcomeBackgroundImage {
+        object-fit: cover;
+    }
+}
+
+/* Position the video to cover the full background */
+#background-video {
+    position: unset;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.dssaWelcomePage {
+    background-color: transparent;
+}
+
+div.dssaWelcomePage > header.sapMPageHeader > div {
+    background-color: var(--dssa-welcome-header-color, transparent);
+    box-shadow: none;
+}
+
+div.dssaWelcomePage > header.sapMPageHeader::after {
+    height: 0px !important;
+}
+.dssaPageTitle {
+    color: var(--dssa-welcome-page-title-color, #F5F5F5) !important;
+}
+.dssaPageHeaderButtons .sapUiIcon {
+    color: var(--dssa-welcome-page-header-button-color, #F5F5F5) !important;
+}
+.dssaMessagePageHeaderButtons .sapUiIcon {
+    color: var(--dssa-message-page-header-button-color, #F5F5F5) !important;
+}
+
+.dssaMessageSendButton .sapUiIcon {
+    color: var(--dssa-chatbox-button-color, #F5F5F5) !important;
+}
+
+.dssaWelcomeGreeting {
+    color: #F5F5F5;
+}
+
+.dssaWelcomeGreetingUserName {
+    color: #abb6ba;
+    width: fit-content;
+    font-size: var(--dssa-welcome-user-name-font-size, 1rem);
+    font-family: var(--dssa-welcome-user-name-font-family, Arial, sans-serif);
+    font-weight: var(--dssa-welcome-user-name-font-weight, normal);
+}
+.dssaWelcomeGreetingWelcomeTitle{
+    width: fit-content;
+    font-size: var(--dssa-welcome-title-font-size, xxx-large);
+    font-family: var(--dssa-welcome-title-font-family, Arial, sans-serif);
+    font-weight: var(--dssa-welcome-title-font-weight, 10);
+}
+.dssaWelcomeGreetingText {
+    width: fit-content;
+    font-size: var(--dssa-welcome-text-font-size, 1.5em);
+    font-family: var(--dssa-welcome-text-font-family, Arial, sans-serif);
+    font-weight: var(--dssa-welcome-text-font-weight, bold);
+}
+.dssaWelcomeGreetingTextQuestion {
+    width: fit-content;
+    font-size: var(--dssa-welcome-textq-font-size, 1.5em);
+    font-family: var(--dssa-welcome-textq-font-family, Arial, sans-serif);
+    font-weight: var(--dssa-welcome-textq-font-weight, bold);
+}
+
+.dssaMessagePageTitle {
+    color: var(--dssa-message-page-title-color, #F5F5F5) !important;
+}
+
+.dssaMessageListItemButtons {
+    margin: 10px;
+}
+.dssaMessageListItemButtonsForText {
+    align-self: start; /* Align buttons to the start of the text bubble */
+}
+.dssaMessageListItemButtonsForCard {
+    width: 80%; /* same width as the card bubble */
+    align-self: center; /* Align buttons to the start of the card bubble */
+}
+
+.dssaActionButton .sapMBtnInner {
+    border: none;
+}
+
+.dssaActionUI5Button {
+  padding-block-start: 0px !important;
+  padding-block-end: 0px !important;
+}
+
+.dssaActionUI5Button > span {
+    border-radius: 25px;
+    border: none;
+    display:inline-block;
+    box-shadow: 0 4px 6px rgba(29, 135, 209, 0.2)
+}
+
+.dssaActionUI5Button bdi {
+    padding-right: 4px;
+    padding-left: 4px;
+    font-family: var(--dssa-bot-button-font-family, var(--sapFontSemiboldDuplexFamily));
+    font-size: var(--dssa-bot-button-font-size, .875rem);
+    font-weight: var(--dssa-bot-button-font-weight, normal);
+    color: var(--dssa-bot-button-text-color, #0064d9);
+}
+.sapMSegB.vsdSetting {
+	margin-bottom: 1rem;
+}
+.dssaBoldText {
+    font-weight: bold;
+}
+.dssaItalicText {
+    font-style: italic;
+}
+.dssaUnderlineText {
+    text-decoration: underline;
+}
+.dssaCustomELementSpacing {
+    margin-top: 10px;
+}
+.dssaSampleText {
+    font-size: var(--app-font-size);
+    font-family: var(--app-font-family);
+    font-weight: var(--app-font-weight);
+    font-style: var(--app-font-style);
+    text-decoration: var(--app-text-decoration);
+}
+.dssaCustomDialogTitle .sapMTitle {
+    font-size: 24px !important;  /* Adjust the font size as needed */
+    font-weight: bold !important; /* Make the title bold */
+  }
+.customObjectPageSectionHeader .sapUiSizeCompact .sapUxAPObjectPageSectionHeader,
+.customObjectPageSectionHeader .sapUxAPObjectPageSectionHeader {
+    height: 0 !important;
+    line-height: 0 !important;
+}
+
+.customFlexFix > .sapMFlexItem {
+    flex: 1 1 auto !important;  /* Allow it to grow */
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+.dssaWelcomePageHeaderBox{
+    position: relative !important;
+    /* top: .5rem !important; */
+    height: inherit !important;
+}
+.dssaPageHeaderHBox {
+    height: inherit;
+}
+.dssaMessagePageHeaderBox{
+    position: relative !important;
+    /* top: .5rem !important; */
+    height: inherit !important;
+}
+
+/* div.dssaMessagePage > header.sapMPageHeader::after {
+    height: 0px !important;
+} */
+
+/* register input card */
+.dssaUI5CardRegisterInput .ac-container.ac-adaptiveCard .ac-columnSet{
+    align-items: center;
+}
+
+/* start for Invoice Card */
+/* get first div tag with class sapUiAFLayoutItem after dssaUI5CardInvoice */
+.dssaUI5CardInvoice .sapUiAFLayoutItem:first-of-type {
+    padding-bottom: .75rem;
+}
+
+/* get first child div tag of a div tag with class sapUiAFLayoutItem after dssaUI5CardInvoice */
+.dssaUI5CardInvoice .sapUiAFLayoutItem:first-of-type > div:first-child {
+    padding-bottom: 0 !important;
+}
+
+.dssaUI5CardInvoice .sapUiAFLayout.sapMFlexItem {
+    display: block;
+}
+/* end for Invoice card */
+
+.dssaUI5CardContract .sapUiAFLayoutItem:first-of-type {
+    padding-bottom: .75rem;
+}
+
+.dssaUI5CardContract .sapUiAFLayout.sapMFlexItem {
+    display: block;
+}
+/* end for Contract card */
+
+.dssaUI5CardContractAccount .sapFCardSubtitle {
+    color: var(--sapTextColor) !important;
+}
+
+/* start for account balance card */
+.dssaUI5CardAccountBalance .sapFCardHeaderTextFirstLine > span:first-child{
+    font-size: 1.1rem;
+}
+.dssaUI5CardAccountBalanceSubtitleAmount {
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block;
+}
+.dssaUI5CardAccountBalanceAmountNegative {
+    color: red;
+}
+.dssaUI5CardAccountBalanceAmountPositive {
+    color: black;
+}
+.dssaUI5CardAccountBalanceSubtitleDateTime{
+    font-size: x-small;
+}
+
+.dssaUI5CardAccountBalance .sapUiAFLayout {
+    /* to make a 2 x 2 grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+.dssaUI5CardAccountBalance .sapFCardObjectGroupLastInColumn {
+    /* always have space between the body and sum line */
+    padding-bottom: 1.00rem !important;
+}
+/* get first direct div child */
+.dssaUI5CardAccountBalance .dssaUI5CardAccountBalanceTotalDebitCell > div:first-child {
+    /* no padding bottom for total debit cell */
+    padding-bottom: 0 !important;
+    padding-top: .5rem;
+}
+.dssaUI5CardAccountBalance .dssaUI5CardAccountBalanceSumCell .sapFCardObjectGroupLastInColumn {
+    /* no padding bottom for sum cell */
+    padding-bottom: 0 !important;
+    padding-top: .5rem;
+}
+
+.dssaUI5CardAccountBalanceSumCell {
+    display: flex;
+    align-items: center;
+}
+.dssaUI5CardAccountBalance .sapUiAFLayoutItem.dssaUI5CardAccountBalanceSumCell{
+    position: relative;
+    /* display: flex;
+    align-items: center; */
+}
+.sapUiAFLayoutItem.dssaUI5CardAccountBalanceSumCell::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10px;
+    right: 30px;
+    bottom: 0;
+    border-top: 2px solid black;
+}
+.dssaUI5CardContractInformation .sapUiAFLayout {
+    /* to make a 2 x 2 grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+.dssaUI5CardContractInformationServiceTypeIndicator0::after {
+    content: attr(dssa-service-type);
+    position: absolute;
+    /* put the content at the right up corner */
+    top: 1rem;
+    right: 2px;
+    background-color: lightgrey;
+    /* make its border round */
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-size: x-small;
+}
+.dssaUI5CardContractInformationServiceTypeIndicator1::after {
+    content: attr(dssa-service-type);
+    position: absolute;
+    /* put the content at the right up corner */
+    top: 2.1rem;
+    right: 2px;
+    background-color: lightgrey;
+    /* make its border round */
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-size: x-small;
+}
+.dssaUI5CardContractInformationServiceTypeIndicator2::after {
+    content: attr(dssa-service-type);
+    position: absolute;
+    /* put the content at the right up corner */
+    top: 3.2rem;
+    right: 2px;
+    background-color: lightgrey;
+    /* make its border round */
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-size: x-small;
+}
+/* end for account balance card */
+
+/* start for consumption card */
+.dssaSingleMonthConsumptionServiceTypeIndicator::after {
+    content: attr(dssa-consumption-service-type);
+    position: absolute;
+    /* put the content at the right up corner */
+    top: 1rem;
+    right: 2px;
+    background-color: lightgrey;
+    /* make its border round */
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-size: x-small;
+}
+/* end for consumption card */
+
+/* start for Utilities Product With Prices card */
+.dssaUtilitiesProductWithPrices .sapFCardHeaderTextSecondLine .sapFCardSubtitle > span:first-child {
+    line-clamp: 3 !important;
+    -webkit-line-clamp: 3 !important;
+}
+/* end for Utilities Product With Prices card */
+
+/* start for single date card */
+.dssaUI5CardDate .ac-container.ac-adaptiveCard{
+    padding-top: 0px !important;
+}
+.dssaUI5CardDate .ac-container.ac-adaptiveCard .ac-columnSet{
+    align-items: center;
+}
+.dssaUI5CardDate .sapFCardAdaptiveContent.sapFCardBaseContent{
+    min-height: 3.5rem !important;
+}
+/* end for single date card */
+
+/* start for new Utilities Products With Prices card */
+.dssaUI5CardNewProductsWithPrices .sapFCardHeaderTextFirstLine>span:first-child {
+    font-size: 1.1rem;
+}
+
+.dssaUI5CardNewProductsWithPrices .sapUiAFLayout {
+    /* to make a 2 x 2 grid */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.dssaUI5CardNewProductsWithPricesRightItemCell {
+    margin-top: 0 !important;
+    align-items: center;
+    display: flex;
+}
+.dssaUI5CardNewProductsWithPrices .sapFCardContent .sapMFlexBox {
+    margin-top: 0 !important;
+}
+.dssaUI5CardNewProductsWithPricesColorSchemeValley {
+    color: var(--sapContent_Illustrative_Color12) !important;
+}
+.dssaUI5CardNewProductsWithPricesColorSchemeTip{
+    color: var(--sapContent_Illustrative_Color11) !important;
+}
+.dssaUI5CardNewProductsWithPricesColorSchemeFlat{
+    color: var(--sapContent_Illustrative_Color3) !important;
+}
+.dssaUI5CardNewProductsWithPricesColorSchemeNeutral{
+    color: var(--sapContent_Illustrative_Color5) !important;
+}
+.dssaUI5CardNewProductsWithPricesColorSchemeInformative{
+    color: var(--sapContent_Illustrative_Color2) !important;
+}
+.dssaUI5CardNewProductsWithPricesColorSchemeBright::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(255,255,255,0.4) 0%,
+        rgba(255,255,255,0) 60%
+    );
+    pointer-events: none;
+}
+/* end for new Utilities Products With Prices card */
+
+/* start of Budget Billing Plan Card card */
+.dssaUI5CardBudgetBillingPlan .sapUiAFLayoutItem:first-of-type {
+    padding-bottom: .75rem;
+}
+
+.dssaUI5CardBudgetBillingPlan .sapUiAFLayout.sapMFlexItem {
+    display: block;
+}
+/* end of Budget Billing Plan Card card */
+
+.dssaApiData {
+    cursor: var(--dssa-api-data-cursor, inherit);
+}
+
+.dssaSessionStoppedMessage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0;
+    color: #868e96;
+    font-size: 0.85em;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+
+.dssaSessionStoppedMessage::before,
+.dssaSessionStoppedMessage::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #98a6b3;
+}
+
+.dssaSessionStoppedMessage::before {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.dssaSessionStoppedMessage::after {
+    margin-left: 5px;
+    margin-right: 5px;
+}

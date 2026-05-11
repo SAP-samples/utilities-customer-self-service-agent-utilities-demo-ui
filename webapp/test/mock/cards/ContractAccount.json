@@ -1,0 +1,23 @@
+{
+    "type": "contractAccount",
+    "contractAccountID": "1643341",
+    "accountID": "1113855",
+    "description": "Contract Account (U100)",
+    "incomingPaymentMethodID": "K",
+    "outgoingPaymentMethodID1": "U",
+    "outgoingPaymentMethodID2": "",
+    "outgoingPaymentMethodID3": "",
+    "outgoingPaymentMethodID4": "",
+    "outgoingPaymentMethodID5": "",
+    "incomingPaymentBankAccountID": "",
+    "outgoingPaymentBankAccountID": "1",
+    "incomingPaymentPaymentCardID": "1",
+    "outgoingPaymentPaymentCardID": "",
+    "accountAddressID": "",
+    "billToAccountID": "",
+    "billToAccountAddressID": "",
+    "alternativePayeeID": "",
+    "alternativePayerID": "",
+    "countryID": "DE",
+    "budgetBillingProcedure": "1"
+}

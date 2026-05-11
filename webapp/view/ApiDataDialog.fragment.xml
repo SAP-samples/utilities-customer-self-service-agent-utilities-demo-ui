@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns="sap.m" 
+  xmlns:codeeditor="sap.ui.codeeditor"
+  xmlns:core="sap.ui.core">
+  <Dialog title="{i18n>ApiData}" draggable="true" resizable="true" contentHeight="80%" contentWidth="60%" verticalScrolling="false">
+    <content>
+            <codeeditor:CodeEditor id="CodeEditor" type="json" width="100%"
+                                   height="100%" editable="false" />
+    </content>
+    <endButton>
+      <Button id="closeApiDataDialog" press="close" text="{i18n>Close}"/>
+    </endButton>
+  </Dialog>
+</core:FragmentDefinition>

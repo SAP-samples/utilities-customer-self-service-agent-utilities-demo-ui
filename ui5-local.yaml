@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "3.1"
+metadata:
+  name: com.sap.utl.ai.ui.dssa
+type: application
+server:
+  customMiddleware:
+    - name: kyma-token
+      beforeMiddleware: compression
+      # mountPath: /dssa
+    - name: fiori-tools-proxy
+      afterMiddleware: kyma-token
+      configuration:
+        ignoreCertErrors: true # If set to true, certificate errors will be ignored. E.g. self-signed certificates will be accepted
+        debug: true
+        backend:
+          - path: /dssa
+            pathReplace: "/"
+            url: https://<tenant>.ucssa.ai.cloud.sap/
+    - name: fiori-tools-servestatic
+      afterMiddleware: compression
+      configuration:
+        acceptRanges: true
+        paths:
+          - path: /user-api/currentUser
+            src: webapp\\test\\mock\\user.json
+          - path: /config
+            src: webapp\\test\\mock\\config.json
+---
+# Custom middleware extension as part of your project
+specVersion: "3.1"
+kind: extension
+type: server-middleware
+metadata:
+  name: kyma-token
+middleware:
+  path: webapp/test/mock/mw-token.js

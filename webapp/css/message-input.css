@@ -1,0 +1,37 @@
+.dssaMessageInputFlexBox{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background-color: var(--sapBackgroundColor);
+    /* border: solid 1px; */
+    /* border-top: transparent;
+    border-left: transparent;
+    border-right: transparent; */
+    border: solid 2px var(--dssa-welcome-page-chatbox-border-color, #2E75DF);
+    outline: none;
+    border-radius: .5rem;
+    width: 98% !important;
+}
+/* when in mobile device, reduce the width to 90% */
+@media only screen and (max-width: 600px) {
+    .dssaMessageInputFlexBox {
+        width: 90% !important;
+    }
+}
+
+.dssaWelcomePage > section > div:nth-of-type(2) {
+    position : var(--dssa-welcome-page-chatbox-position, relative);
+    /* position : absolute; */
+    bottom: 10px;
+    width: 95%;
+}
+
+.dssaWelcomePage > section > div:nth-of-type(2) > div {
+    background-color: var(--dssa-welcome-page-chatbox-fill-color, #f5f6f7);
+}
+
+.dssaMessagePage .sapMPageFooter .sapMBarMiddle {
+    height: fit-content;
+}
+.dssaMessagePage .sapMPageFooter .sapMBarMiddle .sapMBarContainer {
+    height: fit-content;
+}

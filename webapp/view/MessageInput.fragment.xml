@@ -1,0 +1,20 @@
+<core:FragmentDefinition xmlns="sap.m" 
+  xmlns:core="sap.ui.core">
+    <FlexBox id="message-flexbox" alignItems="End" width="100%" class="dssaMessageInputFlexBox">
+        <TextArea id="message-input" rows="1" growing="true" growingMaxLines="10" width="100%" class="sapUiSmallMarginEnd dssaMessageTextArea" placeholder="Message..." liveChange="onMessageInputLiveChange" >
+            <layoutData>
+                <FlexItemData id='fi1' growFactor="1000" class="dssaMessageTextArea" />
+            </layoutData>
+        </TextArea>
+        <Button id="message-clear" icon="sap-icon://decline" type="Transparent" class="sapUiTinyMarginEnd dssaMessageClear" press="clearMessageInput">
+            <layoutData>
+                <FlexItemData id='fi2' growFactor="1" />
+            </layoutData>
+        </Button>
+        <Button id="message-send" icon="sap-icon://paper-plane" enabled="false" type="Emphasized" class="sapUiTinyMarginEnd dssaMessageSendButton" press="postMessage('')">
+            <layoutData>
+                <FlexItemData id='fi3' growFactor="1" />
+            </layoutData>
+        </Button>
+    </FlexBox>
+</core:FragmentDefinition>

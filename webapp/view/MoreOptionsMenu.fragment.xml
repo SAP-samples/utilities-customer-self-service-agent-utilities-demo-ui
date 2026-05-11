@@ -1,0 +1,8 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:core="sap.ui.core"
+		core:require="{ controller: 'com/sap/utl/ai/ui/dssa/controller/MoreOptions' }">
+	<Menu id="more-options-menu">
+		<MenuItem id="switch-api-demo" text="Switch API Demo" icon="sap-icon://SAP-icons-TNT/verify-api" press="switchApiDemo"/>
+	</Menu>
+</core:FragmentDefinition>

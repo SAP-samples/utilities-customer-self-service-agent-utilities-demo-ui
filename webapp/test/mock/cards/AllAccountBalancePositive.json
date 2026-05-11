@@ -1,0 +1,27 @@
+{
+    "type": "userAccount",
+    "data": {
+        "contractAccounts": [
+            {
+                "contractAccountID": "1643341",
+                "description": "City Homes",
+                "contractAccountBalance": -19556.93,
+                "contractAccountCurrency": "EUR"
+            },
+            {
+                "contractAccountID": "1653441",
+                "description": "Summer House",
+                "contractAccountBalance": 20000,
+                "contractAccountCurrency": ""
+            }
+        ],
+        "userDataType": "AllAccountsBalance",
+        "totalBalance": 443.07,
+        "currency": "EUR",
+        "userContractAccountBalances": [],
+        "accountID": "1113855",
+        "premises": [],
+        "contracts": [],
+        "serviceDetails": []
+    }
+}

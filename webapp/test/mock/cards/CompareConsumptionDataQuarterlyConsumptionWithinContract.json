@@ -1,0 +1,62 @@
+{
+	"type": "compareConsumption",
+	"data": [
+		{
+			"contractID": "144009",
+			"contractDescription": "Electricity Contract 144009",
+			"division": "Electricity",
+			"intervalType": "Quarterly",
+			"comparisonType": "WithinContract",
+			"values": [
+				{
+					"period": "2023-01-01 - 2023-03-31",
+					"consumption": "1234",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-04-01 - 2023-06-30",
+					"consumption": "2345",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-07-01 - 2023-09-30",
+					"consumption": "3456",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-10-01 - 2023-12-31",
+					"consumption": "4567",
+					"unit": "KWH"
+				}
+			]
+		},
+		{
+			"contractID": "144009",
+			"contractDescription": "Electricity Contract 144009",
+			"division": "Electricity",
+			"intervalType": "Quarterly",
+			"comparisonType": "WithinContract",
+			"values": [	{
+					"period": "2024-01-01 - 2024-03-31",
+					"consumption": "1234",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-04-01 - 2024-06-30",
+					"consumption": "2345",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-07-01 - 2024-09-30",
+					"consumption": "3456",
+					"unit": "KWH"
+				},
+				{
+					"period": "2024-10-01 - 2024-12-31",
+					"consumption": "4567",
+					"unit": "KWH"
+				}
+			]
+		}
+	]
+}

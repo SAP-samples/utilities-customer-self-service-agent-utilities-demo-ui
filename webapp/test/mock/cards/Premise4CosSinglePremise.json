@@ -1,0 +1,29 @@
+{
+    "type": "premises4CoS",
+    "data": [
+        {
+            "standardFlag": "",
+            "city": "Novillage",
+            "district": "",
+            "postalCode": "12921",
+            "POBoxPostalCode": "",
+            "POBox": "",
+            "street": "Cloudyhill",
+            "houseNo": "696",
+            "building": "",
+            "floor": "",
+            "roomNo": "",
+            "countryID": "DE",
+            "countryName": "",
+            "region": "",
+            "regionName": "",
+            "timeZone": "CET",
+            "taxJurisdictionCode": "",
+            "languageID": "E",
+            "shortForm": "Cloudyhill 696 / 12921 Novillage",
+            "premiseTypeID": "0003",
+            "premiseID": "652742",
+            "premiseTypeDescription": "Single Family Home"
+        }
+    ]
+}

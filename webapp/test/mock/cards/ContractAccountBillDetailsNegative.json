@@ -1,0 +1,26 @@
+{
+    "type": "userAccount",
+    "data": {
+        "contractAccounts": [],
+        "userDataType": "ContractAccountBillDetails",
+        "totalBalance": 0,
+        "currency": "",
+        "userContractAccountBalances": [
+            {
+                "accountID": "",
+                "contractAccountID": "1643341",
+                "currentBalance": "-19556.93000",
+                "totalAmount": "0.00000",
+                "netAmount": "0.00000",
+                "openCollectable": "-19556.93000",
+                "openDebits": "0.00000",
+                "openCredits": "0.00000",
+                "currency": "EUR"
+            }
+        ],
+        "accountID": "",
+        "premises": [],
+        "contracts": [],
+        "serviceDetails": []
+    }
+}

@@ -1,0 +1,245 @@
+{
+	"sap.app": {
+		"type": "card",
+		"id": "com.sap.utl.ai.ui.dssa"
+	},
+	"sap.card": {
+		"extension": "controller/UI5CardExtension",
+		"type": "List",
+		"header": {
+			"title": "Available Cards",
+			"subTitle": "Click an item to view its details",
+			"icon": {
+				"src": "sap-icon://SAP-icons-TNT/ai-1"
+			}
+		},
+		"content": {
+			"data": {
+				"json": [
+					{
+						"Name": "Premise",
+						"Description": "Object Card",
+						"Icon": "sap-icon://building"
+					},
+					{
+						"Name": "Service Contract",
+						"Description": "Object Card",
+						"Icon": "sap-icon://customer-order-entry"
+					},
+					{
+						"Name": "Register Input",
+						"Description": "Adaptive Card",
+						"Icon": "sap-icon://form"
+					},
+					{
+						"Name": "Meter Reading",
+						"Description": "Object Card",
+						"Icon": "sap-icon://fob-watch"
+					},
+					{
+						"Name": "Contract Account",
+						"Description": "Object Card",
+						"Icon": "sap-icon://account"
+					},
+					{
+						"Name": "Device",
+						"Description": "Object Card",
+						"Icon": "sap-icon://it-instance"
+					},
+					{
+						"Name": "Invoice",
+						"Description": "Invoice List",
+						"Icon": "sap-icon://monitor-payments"
+					},
+					{
+						"Name": "Monthly Consumption",
+						"Description": "Analytical Card",
+						"Icon": "sap-icon://column-chart-dual-axis"
+					},
+					{
+						"Name": "Monthly Consumption - Single Month",
+						"Description": "Single Service",
+						"Icon": "sap-icon://column-chart-dual-axis"
+					},
+					{
+						"Name": "Monthly Consumption - Single Month Multiple Services",
+						"Description": "Multiple Service",
+						"Icon": "sap-icon://column-chart-dual-axis"
+					},
+					{
+						"Name": "Yearly Consumption",
+						"Description": "Object Card",
+						"Icon": "sap-icon://sales-order"
+					},
+					{
+						"Name": "Yearly Consumption - Single Service",
+						"Description": "Single Service",
+						"Icon": "sap-icon://sales-order"
+					},
+					{
+						"Name": "Compare Consumption Data - Monthly Consumption - Within Contract",
+						"Description": "Compare Consumption Data - Monthly Consumption - Within Contract",
+						"Icon": "sap-icon://bar-chart"
+					},
+					{
+						"Name": "Compare Consumption Data - Quarterly Consumption - Within Contract",
+						"Description": "Compare Consumption Data - Quarterly Consumption - Within Contract",
+						"Icon": "sap-icon://bar-chart"
+					},
+					{
+						"Name": "Compare Consumption Data - Yearly Consumption - Within Contract",
+						"Description": "Compare Consumption Data - Yearly Consumption - Within Contract",
+						"Icon": "sap-icon://bar-chart"
+					},
+					{
+						"Name": "Compare Consumption Data - Monthly Consumption - Profile",
+						"Description": "Compare Consumption Data - Monthly Consumption - Profile",
+						"Icon": "sap-icon://bar-chart"
+					},
+					{
+						"Name": "Compare Consumption Data - Quarterly Consumption - Profile",
+						"Description": "Compare Consumption Data - Quarterly Consumption - Profile",
+						"Icon": "sap-icon://bar-chart"
+					},
+					{
+						"Name": "Compare Consumption Data - Yearly Consumption - Profile",
+						"Description": "Compare Consumption Data - Yearly Consumption - Profile",
+						"Icon": "sap-icon://bar-chart"
+					},
+					{
+						"Name": "Compare Consumption Data - Monthly Consumption - Across Contracts",
+						"Description": "Compare Consumption Data - Monthly Consumption - Across Contracts",
+						"Icon": "sap-icon://bar-chart"
+					},
+					{
+						"Name": "Compare Consumption Data - Quarterly Consumption - Across Contracts",
+						"Description": "Compare Consumption Data - Quarterly Consumption - Across Contracts",
+						"Icon": "sap-icon://bar-chart"
+					},
+					{
+						"Name": "Compare Consumption Data - Yearly Consumption - Across Contracts",
+						"Description": "Compare Consumption Data - Yearly Consumption - Across Contracts",
+						"Icon": "sap-icon://bar-chart"
+					},
+					{
+						"Name": "Premise for Change of Supplier",
+						"Description": "Multiple Premises",
+						"Icon": "sap-icon://collections-management"
+					},
+					{
+						"Name": "Premise for Change of Supplier - Single Premise",
+						"Description": "Single Premise",
+						"Icon": "sap-icon://collections-management"
+					},
+					{
+						"Name": "Utilities Product With Prices",
+						"Description": "Product Card",
+						"Icon": "sap-icon://collections-management"
+					},
+					{
+						"Name": "Markdown",
+						"Description": "History of SAP",
+						"Icon": "sap-icon://translate"
+					},
+					{
+						"Name": "Payment Information",
+						"Description": "View Payment Information",
+						"Icon": "sap-icon://credit-card"
+					},
+					{
+						"Name": "Contract",
+						"Description": "View Contracts",
+						"Icon": "sap-icon://form"
+					},
+					{
+						"Name": "Contract Details",
+						"Description": "View Contract Details",
+						"Icon": "sap-icon://form"
+					},
+					{
+						"Name": "All Account Balance - Positive",
+						"Description": "Positive",
+						"Icon": "sap-icon://user"
+					},
+					{
+						"Name": "All Account Balance - Negative",
+						"Description": "Negative",
+						"Icon": "sap-icon://user"
+					},
+					{
+						"Name": "Contract Account Bill Details - Negative",
+						"Description": "Negative",
+						"Icon": "sap-icon://document"
+					},
+					{
+						"Name": "Contract Account Bill Details - Positive",
+						"Description": "Positive",
+						"Icon": "sap-icon://document"
+					},
+					{
+						"Name": "Contract Information",
+						"Description": "View Contract Information",
+						"Icon": "sap-icon://customer"
+					},
+					{
+						"Name": "Single Date Picker",
+						"Description": "Select a date",
+						"Icon": "sap-icon://calendar"
+					},
+					{
+						"Name": "Date Range Picker",
+						"Description": "Select a date range",
+						"Icon": "sap-icon://calendar"
+					},
+					{
+						"Name": "New Utilities Products With Prices",
+						"Description": "New Product Card",
+						"Icon": "sap-icon://collections-management"
+					},
+					{
+						"Name": "Budget Billing Plan",
+						"Description": "View Budget Billing Plans",
+						"Icon": "sap-icon://batch-payments"
+					},
+					{
+						"Name": "Budget Billing Plan Details",
+						"Description": "View Budget Billing Plan Details",
+						"Icon": "sap-icon://batch-payments"
+					},
+					{
+						"Name": "Product By Contract",
+						"Description": "View Products by Contract",
+						"Icon": "sap-icon://product"
+					},
+					{
+						"Name": "File Uploader",
+						"Description": "Upload a File",
+						"Icon": "sap-icon://upload"
+					},
+					{
+						"Name": "Business Partners",
+						"Description": "View Business Partners",
+						"Icon": "sap-icon://account"
+					}
+				]
+			},
+			"item": {
+				"title": "{Name}",
+				"description": "{Description}",
+				"icon": {
+					"src": "{Icon}"
+				},
+				"info": {
+					"value": "{= format.currency(${Price}, ${CurrencyCode})}"
+				},
+				"actions": [
+					{
+						"type": "Custom",
+						"enabled": true
+					}
+				]
+			},
+			"maxItems": 100
+		}
+	}
+}

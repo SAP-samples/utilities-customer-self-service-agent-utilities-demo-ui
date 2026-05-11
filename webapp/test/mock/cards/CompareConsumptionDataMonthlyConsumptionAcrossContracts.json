@@ -1,0 +1,83 @@
+{
+	"type": "compareConsumption",
+	"data": [
+		{
+			"contractID": "138538",
+			"contractDescription": "Heating tariff",
+			"division": "Electricity",
+			"intervalType": "Monthly",
+			"comparisonType": "AcrossContracts",
+			"values": [
+				{
+					"period": "2023-01-01 - 2023-01-31",
+					"consumption": "101.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-02-01 - 2023-02-28",
+					"consumption": "102.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-03-01 - 2023-03-31",
+					"consumption": "103.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-04-01 - 2023-04-30",
+					"consumption": "104.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-05-01 - 2023-05-31",
+					"consumption": "105.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-06-01 - 2023-06-30",
+					"consumption": "106.00000000000000",
+					"unit": "KWH"
+				}
+			]
+		},
+		{
+			"contractID": "138108",
+			"contractDescription": "Household tariff",
+			"division": "Electricity",
+			"intervalType": "Monthly",
+			"comparisonType": "AcrossContracts",
+			"values": [
+				{
+					"period": "2023-01-01 - 2023-01-31",
+					"consumption": "111.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-02-01 - 2023-02-28",
+					"consumption": "112.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-03-01 - 2023-03-31",
+					"consumption": "113.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-04-01 - 2023-04-30",
+					"consumption": "114.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-05-01 - 2023-05-31",
+					"consumption": "115.00000000000000",
+					"unit": "KWH"
+				},
+				{
+					"period": "2023-06-01 - 2023-06-30",
+					"consumption": "116.00000000000000",
+					"unit": "KWH"
+				}
+			]
+		}
+	]
+}

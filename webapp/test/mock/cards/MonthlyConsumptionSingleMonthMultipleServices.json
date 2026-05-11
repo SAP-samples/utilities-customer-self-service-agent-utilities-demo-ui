@@ -1,0 +1,157 @@
+{
+  "type": "monthlyConsumption",
+  "data": [
+    {
+      "contractID": "138538",
+      "contractDescription": "Heating tariff",
+      "division": "Electricity",
+      "premise": {
+        "standardFlag": "",
+        "city": "Anytown",
+        "district": "",
+        "postalCode": "57201",
+        "POBoxPostalCode": "",
+        "POBox": "",
+        "street": "Sunnybrook Street",
+        "houseNo": "7245",
+        "building": "",
+        "floor": "",
+        "roomNo": "",
+        "countryID": "DE",
+        "countryName": "",
+        "region": "",
+        "regionName": "",
+        "timeZone": "CET",
+        "taxJurisdictionCode": "",
+        "languageID": "",
+        "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+        "premiseTypeID": "0003",
+        "premiseID": "647855",
+        "premiseTypeDescription": "Single Family Home"
+      },
+      "intervalType": "Monthly",
+      "values": [
+        {
+          "billingPeriodYear": "2024",
+          "billingPeriodMonth": "08",
+          "consumption": "12327.00000000000000",
+          "unit": "KWH"
+        }
+      ]
+    },
+    {
+      "contractID": "138108",
+      "contractDescription": "Household tariff",
+      "division": "Electricity",
+      "premise": {
+        "standardFlag": "",
+        "city": "Anytown",
+        "district": "",
+        "postalCode": "57201",
+        "POBoxPostalCode": "",
+        "POBox": "",
+        "street": "Sunnybrook Street",
+        "houseNo": "7245",
+        "building": "",
+        "floor": "",
+        "roomNo": "",
+        "countryID": "DE",
+        "countryName": "",
+        "region": "",
+        "regionName": "",
+        "timeZone": "CET",
+        "taxJurisdictionCode": "",
+        "languageID": "",
+        "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+        "premiseTypeID": "0003",
+        "premiseID": "647855",
+        "premiseTypeDescription": "Single Family Home"
+      },
+      "intervalType": "Monthly",
+      "values": [
+        {
+          "billingPeriodYear": "2024",
+          "billingPeriodMonth": "08",
+          "consumption": "66612.34000000000000",
+          "unit": "KWH"
+        }
+      ]
+    },
+    {
+      "contractID": "138109",
+      "contractDescription": "Water contract",
+      "division": "Water",
+      "premise": {
+        "standardFlag": "",
+        "city": "Anytown",
+        "district": "",
+        "postalCode": "57201",
+        "POBoxPostalCode": "",
+        "POBox": "",
+        "street": "Sunnybrook Street",
+        "houseNo": "7245",
+        "building": "",
+        "floor": "",
+        "roomNo": "",
+        "countryID": "DE",
+        "countryName": "",
+        "region": "",
+        "regionName": "",
+        "timeZone": "CET",
+        "taxJurisdictionCode": "",
+        "languageID": "",
+        "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+        "premiseTypeID": "0003",
+        "premiseID": "647855",
+        "premiseTypeDescription": "Single Family Home"
+      },
+      "intervalType": "Monthly",
+      "values": [
+        {
+          "billingPeriodYear": "2024",
+          "billingPeriodMonth": "08",
+          "consumption": "9000.47",
+          "unit": "m3"
+        }
+      ]
+    },
+    {
+      "contractID": "138110",
+      "contractDescription": "Gas contract",
+      "division": "Gas",
+      "premise": {
+        "standardFlag": "",
+        "city": "Anytown",
+        "district": "",
+        "postalCode": "57201",
+        "POBoxPostalCode": "",
+        "POBox": "",
+        "street": "Sunnybrook Street",
+        "houseNo": "7245",
+        "building": "",
+        "floor": "",
+        "roomNo": "",
+        "countryID": "DE",
+        "countryName": "",
+        "region": "",
+        "regionName": "",
+        "timeZone": "CET",
+        "taxJurisdictionCode": "",
+        "languageID": "",
+        "shortForm": "Sunnybrook Street 7245 / 57201 Anytown",
+        "premiseTypeID": "0003",
+        "premiseID": "647855",
+        "premiseTypeDescription": "Single Family Home"
+      },
+      "intervalType": "Monthly",
+      "values": [
+        {
+          "billingPeriodYear": "2024",
+          "billingPeriodMonth": "08",
+          "consumption": 902,
+          "unit": "m3"
+        }
+      ]
+    }
+  ]
+}

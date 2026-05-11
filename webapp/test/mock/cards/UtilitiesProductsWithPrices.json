@@ -1,0 +1,568 @@
+{
+    "type": "UtilitiesProductsWithPrices",
+    "data": [
+        {
+            "product": {
+                "utilitiesProduct": "ISU_PROD_NIBA_ZEN",
+                "productDescription": "niba Zen",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_REFPROD_NIBA_ZEN",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1546300800000)/",
+                "validityEndDate": "/Date(253402214400000)/"
+            },
+            "recurringCharge": [],
+            "oneTimeCharge": [],
+            "usageCharge": [
+                {
+                    "utilitiesProduct": "ISU_PROD_NIBA_ZEN",
+                    "characteristic": "ISU_UIL_CHARGE_24H",
+                    "utilsPriceCategory": "1",
+                    "utilsPriceLevel": "",
+                    "utilsPriceFromBlock": "0000000000",
+                    "utilsPriceToBlock": "0000000000",
+                    "utilsSemanticsName1": "USAGE",
+                    "utilsSemanticsName2": "ALLDAY",
+                    "valuePositionNumber": "002",
+                    "utilsPriceName": "",
+                    "utilsPriceID": "ZENPREIS",
+                    "utilsMeasurementUnit": "",
+                    "utilsPriceFrequencyUnit": "",
+                    "utilsPriceFrequencyValue": "",
+                    "utilsPriceAmount": "0.00",
+                    "utilsPriceCurrency": "",
+                    "utilsPriceTierType": "",
+                    "utilsTimeSliceDurationFrom": "0.00000000000000",
+                    "utilsTimeSliceDurationTo": "0.00000000000000",
+                    "utilsTimeSliceDurationUoM": "",
+                    "productGroup": "UPIL_PRD",
+                    "prices": [
+                        {
+                            "utilsPriceID": "ZENPREIS",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceName": "",
+                            "division": "01",
+                            "utilsMeasurementUnit": "KWH",
+                            "utilitiesBillingClass": "0001",
+                            "utilsTimeBasis": "",
+                            "utilsTimeCategory": "",
+                            "utilsPriceTierType": "1",
+                            "utilsPriceOrigin": ""
+                        }
+                    ],
+                    "utilsPriceItemHistory": [
+                        {
+                            "utilsPriceID": "ZENPREIS",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceItemEndDate": "/Date(253402214400000)/",
+                            "utilsPriceCurrency": "EUR",
+                            "utilsPriceFromBlock": "0000000000",
+                            "utilsPriceToBlock": "9999999999",
+                            "utilsPriceItemStartDate": "/Date(-2208988800000)/",
+                            "utilitiesBaseQuantity": "1.00",
+                            "utilsPriceAmount": "0.11800000",
+                            "division": "01",
+                            "utilitiesBillingClass": "0001"
+                        }
+                    ]
+                },
+                {
+                    "utilitiesProduct": "ISU_PROD_NIBA_ZEN",
+                    "characteristic": "ISU_UIL_POWER_OFFPEAK",
+                    "utilsPriceCategory": "1",
+                    "utilsPriceLevel": "",
+                    "utilsPriceFromBlock": "0000000000",
+                    "utilsPriceToBlock": "0000000000",
+                    "utilsSemanticsName1": "POWER",
+                    "utilsSemanticsName2": "OFF PEAK",
+                    "valuePositionNumber": "002",
+                    "utilsPriceName": "",
+                    "utilsPriceID": "ZENPREIS_O",
+                    "utilsMeasurementUnit": "",
+                    "utilsPriceFrequencyUnit": "",
+                    "utilsPriceFrequencyValue": "",
+                    "utilsPriceAmount": "0.00",
+                    "utilsPriceCurrency": "",
+                    "utilsPriceTierType": "",
+                    "utilsTimeSliceDurationFrom": "0.00000000000000",
+                    "utilsTimeSliceDurationTo": "0.00000000000000",
+                    "utilsTimeSliceDurationUoM": "",
+                    "productGroup": "UPIL_PRD",
+                    "prices": [
+                        {
+                            "utilsPriceID": "ZENPREIS_O",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceName": "",
+                            "division": "01",
+                            "utilsMeasurementUnit": "KWH",
+                            "utilitiesBillingClass": "0001",
+                            "utilsTimeBasis": "",
+                            "utilsTimeCategory": "",
+                            "utilsPriceTierType": "0",
+                            "utilsPriceOrigin": ""
+                        }
+                    ],
+                    "utilsPriceItemHistory": [
+                        {
+                            "utilsPriceID": "ZENPREIS_O",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceItemEndDate": "/Date(253402214400000)/",
+                            "utilsPriceCurrency": "EUR",
+                            "utilsPriceFromBlock": "0000000000",
+                            "utilsPriceToBlock": "9999999999",
+                            "utilsPriceItemStartDate": "/Date(-2208988800000)/",
+                            "utilitiesBaseQuantity": "1.00",
+                            "utilsPriceAmount": "0.04000000",
+                            "division": "01",
+                            "utilitiesBillingClass": "0001"
+                        }
+                    ]
+                },
+                {
+                    "utilitiesProduct": "ISU_PROD_NIBA_ZEN",
+                    "characteristic": "ISU_UIL_POWER_PEAK",
+                    "utilsPriceCategory": "1",
+                    "utilsPriceLevel": "",
+                    "utilsPriceFromBlock": "0000000000",
+                    "utilsPriceToBlock": "0000000000",
+                    "utilsSemanticsName1": "POWER",
+                    "utilsSemanticsName2": "ON PEAK",
+                    "valuePositionNumber": "002",
+                    "utilsPriceName": "",
+                    "utilsPriceID": "ZENPREIS_P",
+                    "utilsMeasurementUnit": "",
+                    "utilsPriceFrequencyUnit": "",
+                    "utilsPriceFrequencyValue": "",
+                    "utilsPriceAmount": "0.00",
+                    "utilsPriceCurrency": "",
+                    "utilsPriceTierType": "",
+                    "utilsTimeSliceDurationFrom": "0.00000000000000",
+                    "utilsTimeSliceDurationTo": "0.00000000000000",
+                    "utilsTimeSliceDurationUoM": "",
+                    "productGroup": "UPIL_PRD",
+                    "prices": [
+                        {
+                            "utilsPriceID": "ZENPREIS_P",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceName": "",
+                            "division": "01",
+                            "utilsMeasurementUnit": "KWH",
+                            "utilitiesBillingClass": "0001",
+                            "utilsTimeBasis": "",
+                            "utilsTimeCategory": "",
+                            "utilsPriceTierType": "0",
+                            "utilsPriceOrigin": ""
+                        }
+                    ],
+                    "utilsPriceItemHistory": [
+                        {
+                            "utilsPriceID": "ZENPREIS_P",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceItemEndDate": "/Date(253402214400000)/",
+                            "utilsPriceCurrency": "EUR",
+                            "utilsPriceFromBlock": "0000000000",
+                            "utilsPriceToBlock": "9999999999",
+                            "utilsPriceItemStartDate": "/Date(-2208988800000)/",
+                            "utilitiesBaseQuantity": "1.00",
+                            "utilsPriceAmount": "0.09500000",
+                            "division": "01",
+                            "utilitiesBillingClass": "0001"
+                        }
+                    ]
+                }
+            ],
+            "discount": []
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_PROD_NIBA_FLEX",
+                "productDescription": "niba Flex",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_REFPROD_NIBA_FLEX",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1546300800000)/",
+                "validityEndDate": "/Date(253402214400000)/"
+            },
+            "recurringCharge": [
+                {
+                    "utilitiesProduct": "ISU_PROD_NIBA_FLEX",
+                    "characteristic": "ISU_UIL_BASE_FEE",
+                    "utilsPriceCategory": "2",
+                    "utilsPriceLevel": "",
+                    "utilsSemanticsName1": "BASE",
+                    "utilsSemanticsName2": "FEE MONTHLY",
+                    "valuePositionNumber": "001",
+                    "utilsPriceID": "FLEXNIBA_B",
+                    "utilsPriceName": "NIBA Flex base price",
+                    "utilsPriceFrequencyUnit": "1",
+                    "utilsPriceFrequencyValue": "1",
+                    "utilsPriceAmount": "0.000",
+                    "utilsPriceCurrency": "",
+                    "utilsPriceTierType": "0",
+                    "utilsTimeSliceDurationFrom": "0.00000000000000",
+                    "utilsTimeSliceDurationTo": "0.00000000000000",
+                    "utilsTimeSliceDurationUoM": "",
+                    "productGroup": "UPIL_PRD",
+                    "prices": [
+                        {
+                            "utilsPriceID": "FLEXNIBA_B",
+                            "utilsPriceCategory": "2",
+                            "utilsPriceLevel": "",
+                            "utilsPriceName": "NIBA Flex base price",
+                            "division": "01",
+                            "utilsMeasurementUnit": "",
+                            "utilitiesBillingClass": "0001",
+                            "utilsTimeBasis": "1",
+                            "utilsTimeCategory": "1",
+                            "utilsPriceTierType": "0",
+                            "utilsPriceOrigin": ""
+                        }
+                    ],
+                    "utilsPriceItemHistory": [
+                        {
+                            "utilsPriceID": "FLEXNIBA_B",
+                            "utilsPriceCategory": "2",
+                            "utilsPriceLevel": "",
+                            "utilsPriceItemEndDate": "/Date(253402214400000)/",
+                            "utilsPriceCurrency": "EUR",
+                            "utilsPriceFromBlock": "0000000000",
+                            "utilsPriceToBlock": "9999999999",
+                            "utilsPriceItemStartDate": "/Date(1577836800000)/",
+                            "utilitiesBaseQuantity": "1.00",
+                            "utilsPriceAmount": "5.00000000",
+                            "division": "01",
+                            "utilitiesBillingClass": "0001"
+                        }
+                    ]
+                }
+            ],
+            "oneTimeCharge": [],
+            "usageCharge": [
+                {
+                    "utilitiesProduct": "ISU_PROD_NIBA_FLEX",
+                    "characteristic": "ISU_UIL_CHARGE_MARKETPRICE",
+                    "utilsPriceCategory": "1",
+                    "utilsPriceLevel": "",
+                    "utilsPriceFromBlock": "0000000000",
+                    "utilsPriceToBlock": "0000000000",
+                    "utilsSemanticsName1": "MARKET",
+                    "utilsSemanticsName2": "PRICE",
+                    "valuePositionNumber": "001",
+                    "utilsPriceName": "",
+                    "utilsPriceID": "TBD",
+                    "utilsMeasurementUnit": "",
+                    "utilsPriceFrequencyUnit": "",
+                    "utilsPriceFrequencyValue": "",
+                    "utilsPriceAmount": "0.00",
+                    "utilsPriceCurrency": "",
+                    "utilsPriceTierType": "",
+                    "utilsTimeSliceDurationFrom": "0.00000000000000",
+                    "utilsTimeSliceDurationTo": "0.00000000000000",
+                    "utilsTimeSliceDurationUoM": "",
+                    "productGroup": "UPIL_PRD",
+                    "prices": [],
+                    "utilsPriceItemHistory": []
+                }
+            ],
+            "discount": []
+        },
+        {
+            "product": {
+                "utilitiesProduct": "ISU_PROD_NIBA_TRES",
+                "productDescription": "niba Tres",
+                "division": "01",
+                "utilitiesBillingClass": "0001",
+                "utilitiesReferenceProduct": "ISU_REFPROD_NIBA_TRES",
+                "productGroup": "UPIL_PRD",
+                "industrySector": "U",
+                "validityStartDate": "/Date(1546300800000)/",
+                "validityEndDate": "/Date(253402214400000)/"
+            },
+            "recurringCharge": [],
+            "oneTimeCharge": [],
+            "usageCharge": [
+                {
+                    "utilitiesProduct": "ISU_PROD_NIBA_TRES",
+                    "characteristic": "ISU_UIL_CHARGE_OFFPEAK",
+                    "utilsPriceCategory": "1",
+                    "utilsPriceLevel": "",
+                    "utilsPriceFromBlock": "0000000000",
+                    "utilsPriceToBlock": "0000000000",
+                    "utilsSemanticsName1": "USAGE",
+                    "utilsSemanticsName2": "OFF PEAK",
+                    "valuePositionNumber": "001",
+                    "utilsPriceName": "",
+                    "utilsPriceID": "TRESNIBA_P",
+                    "utilsMeasurementUnit": "",
+                    "utilsPriceFrequencyUnit": "",
+                    "utilsPriceFrequencyValue": "",
+                    "utilsPriceAmount": "0.00",
+                    "utilsPriceCurrency": "",
+                    "utilsPriceTierType": "",
+                    "utilsTimeSliceDurationFrom": "0.00000000000000",
+                    "utilsTimeSliceDurationTo": "0.00000000000000",
+                    "utilsTimeSliceDurationUoM": "",
+                    "productGroup": "UPIL_PRD",
+                    "prices": [
+                        {
+                            "utilsPriceID": "TRESNIBA_P",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceName": "",
+                            "division": "01",
+                            "utilsMeasurementUnit": "KWH",
+                            "utilitiesBillingClass": "0001",
+                            "utilsTimeBasis": "",
+                            "utilsTimeCategory": "",
+                            "utilsPriceTierType": "0",
+                            "utilsPriceOrigin": ""
+                        }
+                    ],
+                    "utilsPriceItemHistory": [
+                        {
+                            "utilsPriceID": "TRESNIBA_P",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceItemEndDate": "/Date(253402214400000)/",
+                            "utilsPriceCurrency": "EUR",
+                            "utilsPriceFromBlock": "0000000000",
+                            "utilsPriceToBlock": "9999999999",
+                            "utilsPriceItemStartDate": "/Date(-2208988800000)/",
+                            "utilitiesBaseQuantity": "1.00",
+                            "utilsPriceAmount": "0.07400000",
+                            "division": "01",
+                            "utilitiesBillingClass": "0001"
+                        }
+                    ]
+                },
+                {
+                    "utilitiesProduct": "ISU_PROD_NIBA_TRES",
+                    "characteristic": "ISU_UIL_POWER_OFFPEAK",
+                    "utilsPriceCategory": "1",
+                    "utilsPriceLevel": "",
+                    "utilsPriceFromBlock": "0000000000",
+                    "utilsPriceToBlock": "0000000000",
+                    "utilsSemanticsName1": "POWER",
+                    "utilsSemanticsName2": "OFF PEAK",
+                    "valuePositionNumber": "002",
+                    "utilsPriceName": "",
+                    "utilsPriceID": "ZENPREIS_O",
+                    "utilsMeasurementUnit": "",
+                    "utilsPriceFrequencyUnit": "",
+                    "utilsPriceFrequencyValue": "",
+                    "utilsPriceAmount": "0.00",
+                    "utilsPriceCurrency": "",
+                    "utilsPriceTierType": "",
+                    "utilsTimeSliceDurationFrom": "0.00000000000000",
+                    "utilsTimeSliceDurationTo": "0.00000000000000",
+                    "utilsTimeSliceDurationUoM": "",
+                    "productGroup": "UPIL_PRD",
+                    "prices": [
+                        {
+                            "utilsPriceID": "ZENPREIS_O",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceName": "",
+                            "division": "01",
+                            "utilsMeasurementUnit": "KWH",
+                            "utilitiesBillingClass": "0001",
+                            "utilsTimeBasis": "",
+                            "utilsTimeCategory": "",
+                            "utilsPriceTierType": "0",
+                            "utilsPriceOrigin": ""
+                        }
+                    ],
+                    "utilsPriceItemHistory": [
+                        {
+                            "utilsPriceID": "ZENPREIS_O",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceItemEndDate": "/Date(253402214400000)/",
+                            "utilsPriceCurrency": "EUR",
+                            "utilsPriceFromBlock": "0000000000",
+                            "utilsPriceToBlock": "9999999999",
+                            "utilsPriceItemStartDate": "/Date(-2208988800000)/",
+                            "utilitiesBaseQuantity": "1.00",
+                            "utilsPriceAmount": "0.04000000",
+                            "division": "01",
+                            "utilitiesBillingClass": "0001"
+                        }
+                    ]
+                },
+                {
+                    "utilitiesProduct": "ISU_PROD_NIBA_TRES",
+                    "characteristic": "ISU_UIL_POWER_PEAK",
+                    "utilsPriceCategory": "1",
+                    "utilsPriceLevel": "",
+                    "utilsPriceFromBlock": "0000000000",
+                    "utilsPriceToBlock": "0000000000",
+                    "utilsSemanticsName1": "POWER",
+                    "utilsSemanticsName2": "ON PEAK",
+                    "valuePositionNumber": "002",
+                    "utilsPriceName": "",
+                    "utilsPriceID": "ZENPREIS_P",
+                    "utilsMeasurementUnit": "",
+                    "utilsPriceFrequencyUnit": "",
+                    "utilsPriceFrequencyValue": "",
+                    "utilsPriceAmount": "0.00",
+                    "utilsPriceCurrency": "",
+                    "utilsPriceTierType": "",
+                    "utilsTimeSliceDurationFrom": "0.00000000000000",
+                    "utilsTimeSliceDurationTo": "0.00000000000000",
+                    "utilsTimeSliceDurationUoM": "",
+                    "productGroup": "UPIL_PRD",
+                    "prices": [
+                        {
+                            "utilsPriceID": "ZENPREIS_P",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceName": "",
+                            "division": "01",
+                            "utilsMeasurementUnit": "KWH",
+                            "utilitiesBillingClass": "0001",
+                            "utilsTimeBasis": "",
+                            "utilsTimeCategory": "",
+                            "utilsPriceTierType": "0",
+                            "utilsPriceOrigin": ""
+                        }
+                    ],
+                    "utilsPriceItemHistory": [
+                        {
+                            "utilsPriceID": "ZENPREIS_P",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceItemEndDate": "/Date(253402214400000)/",
+                            "utilsPriceCurrency": "EUR",
+                            "utilsPriceFromBlock": "0000000000",
+                            "utilsPriceToBlock": "9999999999",
+                            "utilsPriceItemStartDate": "/Date(-2208988800000)/",
+                            "utilitiesBaseQuantity": "1.00",
+                            "utilsPriceAmount": "0.09500000",
+                            "division": "01",
+                            "utilitiesBillingClass": "0001"
+                        }
+                    ]
+                },
+                {
+                    "utilitiesProduct": "ISU_PROD_NIBA_TRES",
+                    "characteristic": "ISU_UIL_CHARGE_PEAK",
+                    "utilsPriceCategory": "1",
+                    "utilsPriceLevel": "",
+                    "utilsPriceFromBlock": "0000000000",
+                    "utilsPriceToBlock": "0000000000",
+                    "utilsSemanticsName1": "USAGE",
+                    "utilsSemanticsName2": "ON PEAK",
+                    "valuePositionNumber": "002",
+                    "utilsPriceName": "",
+                    "utilsPriceID": "TRESNIBA_O",
+                    "utilsMeasurementUnit": "",
+                    "utilsPriceFrequencyUnit": "",
+                    "utilsPriceFrequencyValue": "",
+                    "utilsPriceAmount": "0.00",
+                    "utilsPriceCurrency": "",
+                    "utilsPriceTierType": "",
+                    "utilsTimeSliceDurationFrom": "0.00000000000000",
+                    "utilsTimeSliceDurationTo": "0.00000000000000",
+                    "utilsTimeSliceDurationUoM": "",
+                    "productGroup": "UPIL_PRD",
+                    "prices": [
+                        {
+                            "utilsPriceID": "TRESNIBA_O",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceName": "",
+                            "division": "01",
+                            "utilsMeasurementUnit": "KWH",
+                            "utilitiesBillingClass": "0001",
+                            "utilsTimeBasis": "",
+                            "utilsTimeCategory": "",
+                            "utilsPriceTierType": "0",
+                            "utilsPriceOrigin": ""
+                        }
+                    ],
+                    "utilsPriceItemHistory": [
+                        {
+                            "utilsPriceID": "TRESNIBA_O",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceItemEndDate": "/Date(253402214400000)/",
+                            "utilsPriceCurrency": "EUR",
+                            "utilsPriceFromBlock": "0000000000",
+                            "utilsPriceToBlock": "9999999999",
+                            "utilsPriceItemStartDate": "/Date(-2208988800000)/",
+                            "utilitiesBaseQuantity": "1.00",
+                            "utilsPriceAmount": "0.19500000",
+                            "division": "01",
+                            "utilitiesBillingClass": "0001"
+                        }
+                    ]
+                },
+                {
+                    "utilitiesProduct": "ISU_PROD_NIBA_TRES",
+                    "characteristic": "ISU_UIL_CHARGE_MIDPEAK",
+                    "utilsPriceCategory": "1",
+                    "utilsPriceLevel": "",
+                    "utilsPriceFromBlock": "0000000000",
+                    "utilsPriceToBlock": "0000000000",
+                    "utilsSemanticsName1": "USAGE",
+                    "utilsSemanticsName2": "MID PEAK",
+                    "valuePositionNumber": "001",
+                    "utilsPriceName": "",
+                    "utilsPriceID": "TRESNIBA_M",
+                    "utilsMeasurementUnit": "",
+                    "utilsPriceFrequencyUnit": "",
+                    "utilsPriceFrequencyValue": "",
+                    "utilsPriceAmount": "0.00",
+                    "utilsPriceCurrency": "",
+                    "utilsPriceTierType": "",
+                    "utilsTimeSliceDurationFrom": "0.00000000000000",
+                    "utilsTimeSliceDurationTo": "0.00000000000000",
+                    "utilsTimeSliceDurationUoM": "",
+                    "productGroup": "UPIL_PRD",
+                    "prices": [
+                        {
+                            "utilsPriceID": "TRESNIBA_M",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceName": "",
+                            "division": "01",
+                            "utilsMeasurementUnit": "KWH",
+                            "utilitiesBillingClass": "0001",
+                            "utilsTimeBasis": "",
+                            "utilsTimeCategory": "",
+                            "utilsPriceTierType": "0",
+                            "utilsPriceOrigin": ""
+                        }
+                    ],
+                    "utilsPriceItemHistory": [
+                        {
+                            "utilsPriceID": "TRESNIBA_M",
+                            "utilsPriceCategory": "1",
+                            "utilsPriceLevel": "",
+                            "utilsPriceItemEndDate": "/Date(253402214400000)/",
+                            "utilsPriceCurrency": "EUR",
+                            "utilsPriceFromBlock": "0000000000",
+                            "utilsPriceToBlock": "9999999999",
+                            "utilsPriceItemStartDate": "/Date(-2208988800000)/",
+                            "utilitiesBaseQuantity": "1.00",
+                            "utilsPriceAmount": "0.11700000",
+                            "division": "01",
+                            "utilitiesBillingClass": "0001"
+                        }
+                    ]
+                }
+            ],
+            "discount": []
+        }
+    ]
+}

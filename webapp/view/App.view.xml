@@ -1,0 +1,17 @@
+<mvc:View controllerName="com.sap.utl.ai.ui.dssa.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <App id="app">
+            <NavContainer
+                id="navcon"
+                width="100%"
+                height="100%">
+        <pages>
+                <mvc:XMLView id="welcome" viewName="com.sap.utl.ai.ui.dssa.view.Welcome"></mvc:XMLView>
+                <mvc:XMLView id="chats" viewName="com.sap.utl.ai.ui.dssa.view.Chats"></mvc:XMLView>
+                <!-- <mvc:XMLView id="customize" viewName="com.sap.utl.ai.ui.dssa.view.Customization"></mvc:XMLView> -->
+        </pages>
+            </NavContainer>
+    </App>
+</mvc:View>
