@@ -1,0 +1,33 @@
+services:
+  # -----------------------------------------------------------------------
+  # Auth backend – fetches IAS tokens and proxies /dssa requests
+  # -----------------------------------------------------------------------
+  auth-backend:
+    build:
+      context: ./auth-backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      PORT: "3001"
+    expose:
+      - "3001"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://localhost:3001/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+
+  # -----------------------------------------------------------------------
+  # UI – built SAPUI5 app served by nginx, proxies API calls to auth-backend
+  # -----------------------------------------------------------------------
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "${UI_PORT:-8080}:8080"
+    depends_on:
+      auth-backend:
+        condition: service_healthy

@@ -23,10 +23,8 @@ server:
       configuration:
         acceptRanges: true
         paths:
-          - path: /user-api/currentUser
-            src: webapp\\test\\mock\\user.json
           - path: /config
-            src: webapp\\test\\mock\\config.json
+            src: .\\config.json
 ---
 # Custom middleware extension as part of your project
 specVersion: "3.1"

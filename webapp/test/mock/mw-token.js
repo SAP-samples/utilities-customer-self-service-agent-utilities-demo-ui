@@ -6,7 +6,7 @@ import { dirname, resolve } from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const config = JSON.parse(fs.readFileSync(resolve(__dirname, `config.json`), 'utf8'))
+const config = JSON.parse(fs.readFileSync(resolve(__dirname, '../../../', `config.json`), 'utf8'))
 const fetchIasToken = async () => { 
     try {
       return (await axios.post(

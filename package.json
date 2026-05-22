@@ -1,7 +1,7 @@
 {
   "name": "utilities-customer-self-service-agent-utilities-demo-ui",
   "version": "0.0.1",
-  "description": "Utilities Customer Self-Service Agent",
+  "description": "Utilities Customer Self-Service Agent Demo UI",
   "type": "module",
   "keywords": [
     "ui5",
@@ -23,6 +23,7 @@
   },
   "scripts": {
     "start": "fiori run --config ./ui5-local.yaml --open \"index.html\"",
+    "start-docker": "ui5 serve --config ./ui5-local.yaml --accept-remote-connections --port 8080",
     "start-mock": "fiori run --config ./ui5-mock.yaml --open \"index.html?dssa-mock=true\""
   },
   "sapuxLayer": "CUSTOMER_BASE"
