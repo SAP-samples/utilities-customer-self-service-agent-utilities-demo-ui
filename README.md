@@ -1,3 +1,4 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/utilities-customer-self-service-agent-utilities-demo-ui)](https://api.reuse.software/info/github.com/SAP-samples/utilities-customer-self-service-agent-utilities-demo-ui)
 # Utilities Customer Self-Service Agent — Demo UI
 
 A SAPUI5 reference application for integrating with the [Utilities Customer Self-Service Agent](https://help.sap.com/docs/utilities-self-service-agent) API. This project is intended for non-productive use only, serving as a starting point for testing and learning how to consume the API.
